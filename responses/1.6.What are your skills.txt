@@ -1,0 +1,19 @@
+Let me break it down the way it actually matters:
+
+HARD SKILLS:
+→ Python data pipelines (Pandas, NumPy) at scale — 650K+ records processed in production
+→ Exploratory Data Analysis and statistical pattern recognition
+→ Power BI dashboards for business KPI tracking
+→ SQL (joins, CTEs, window functions) and database management (MySQL + MongoDB)
+→ Data cleaning, validation, and multi-stage ETL processes
+→ Git, Docker, Jupyter workflows
+
+PROVEN UNDER PRESSURE:
+→ 2nd Prize — Measi Institute Hackathon 2025
+→ 2nd Prize — MGR University Hackathon 2025
+→ 1750+ LeetCode problems | 90% acceptance rate
+
+SOFT SKILLS (backed by evidence, not buzzwords):
+→ I communicate findings clearly to non-technical stakeholders
+→ I debug systematically, not randomly
+→ I ask the right questions before writing a single line of code

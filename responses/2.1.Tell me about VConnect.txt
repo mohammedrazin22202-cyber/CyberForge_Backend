@@ -1,0 +1,13 @@
+VConnect is my most technically substantial project — and the one that pushed me furthest as an engineer.
+
+It's a large-scale data analytics platform built to process, clean, and surface insights from a dataset of 650,000+ records.
+
+Here's what it actually involved:
+
+→ Ingested and processed 650,000+ records using Python, Pandas, and NumPy
+→ Built multi-stage data cleaning and validation pipelines from scratch to handle real-world inconsistencies
+→ Optimized processing workflows — achieved a 41% improvement in efficiency through profiling and restructuring
+→ Performed deep EDA to surface meaningful trends and patterns
+→ Built interactive Power BI dashboards for KPI tracking and business decision-making
+
+This wasn't a college assignment. It was a real data engineering challenge with real scale, real mess, and real results.

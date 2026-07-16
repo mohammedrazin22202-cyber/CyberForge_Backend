@@ -1,0 +1,7 @@
+Prompt engineering is the practice of designing inputs to AI language models to get consistent, accurate, and useful outputs.
+
+It sounds straightforward. It isn't. How you phrase a question — the context you provide, the format you request, the examples you include — dramatically affects what the model produces.
+
+For developers building on LLMs, prompt engineering is the layer between user intent and model output. It's part UX design, part systems thinking, part empirical testing.
+
+I'm actively studying it — because anyone building AI-integrated products needs to understand it. This chatbot's response design is an early application of that thinking.

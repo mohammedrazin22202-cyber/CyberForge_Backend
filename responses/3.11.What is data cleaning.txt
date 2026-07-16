@@ -1,0 +1,7 @@
+Data cleaning is the process of identifying and fixing problems in raw data so it's reliable enough to analyze.
+
+In practice: handling missing values (impute or drop — knowing when to do which), standardizing formats, removing duplicates, detecting outliers, and validating data against known constraints.
+
+In VConnect, I built a multi-stage cleaning pipeline for 650K+ records. Each stage logged what it changed and why — at that scale you need an audit trail. You can't clean data silently and hope the outputs are right.
+
+The principle: good cleaning is invisible. Bad cleaning destroys every analysis downstream.

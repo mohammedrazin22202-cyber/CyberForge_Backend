@@ -1,0 +1,7 @@
+Data skew is a major risk; 'success stories' are often a tiny fraction of the data. 
+
+I address this using SMOTE to create synthetic examples of the minority class, ensuring the model doesn't just 'predict the majority' for high accuracy. 
+
+I also use Cost-Sensitive Learning, penalizing the model more heavily for missing a critical alert than for a false positive. 
+
+It’s about aligning algorithmic weights with real-world stakes in the village community.

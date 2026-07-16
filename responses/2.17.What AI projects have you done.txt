@@ -1,0 +1,9 @@
+My AI exposure spans coursework, certification, and applied project work:
+
+Coursework: AI and Machine Learning as part of my MCA curriculum — supervised learning, model evaluation, core algorithms.
+
+Certifications: Data Science and Analytics (GUVI) — ML fundamentals applied to real datasets.
+
+Applied: VConnect's EDA surfaced patterns that are the natural input for a predictive model. Building that prediction layer is the next step I'm actively working toward.
+
+Currently: Learning AI API integration and prompt engineering. This chatbot is part of that progression — understanding how to build intelligent systems, layer by layer.

@@ -1,0 +1,9 @@
+I once built a tracking tool that crashed under stress because I hadn't accounted for memory leaks in long-running processes. 
+
+The project failed its first test, but it was a massive success for my growth. 
+
+It forced me to dive deep into Resource Profiling. 
+
+That failure taught me that 'Code that works' is only half the battle; 'Code that survives' is what matters. 
+
+Now, I perform boundary testing on every module, ensuring I build robust, battle-hardened systems.

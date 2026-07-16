@@ -1,0 +1,10 @@
+My active working libraries:
+
+Data processing: Pandas (primary — used at 650K-record scale in production), NumPy (numerical operations and vectorized logic)
+Visualization: Matplotlib, Seaborn
+Environment: Jupyter Notebook for exploratory work, clean .py scripts for production pipelines
+
+Exposure through coursework and projects:
+Scikit-learn (ML fundamentals), OpenCV (computer vision basics)
+
+I focus on depth over breadth. Knowing Pandas well means knowing groupby logic, merge strategies, memory optimization for large DataFrames, and handling real-world messy data — not just the common methods.

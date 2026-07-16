@@ -1,0 +1,8 @@
+I view latency as a 'tax' on user experience. 
+
+I implement Cache-Aside patterns using Redis to store frequently accessed data, reducing SQL hits by up to 80%. 
+
+On the frontend, I leverage Browser Caching and ETags. 
+
+My CA background makes me look at this from an 'efficiency-first' perspective: by reducing round-trip times, we aren't just improving speed; we are lowering compute costs and operational overhead at scale, which is essential for any high-volume application.
+

@@ -1,0 +1,7 @@
+The gap between where I am and where I want to be.
+
+That gap is specific: I want to build intelligent, automated data systems at scale. I'm not there yet. That fact is motivating, not discouraging.
+
+Every LeetCode problem closes the gap a little. Every pipeline I optimize closes it a little. This chatbot closes it a little. The 1750+ problems milestone closed it significantly.
+
+Also: seeing things work. The moment a pipeline runs cleanly, a dashboard loads correctly, a bot response hits exactly right — those small wins compound. I run on those.

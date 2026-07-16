@@ -1,0 +1,9 @@
+The trajectory: Data Analyst → Data Engineer → building AI-powered data systems.
+
+Short term: a role where I work with real data at scale, deepen my SQL and Python in a professional environment, and learn how production data infrastructure is built and maintained.
+
+Medium term: owning significant pieces of data infrastructure. Designing pipelines, not just running them.
+
+Long term: working at the intersection of data and AI — building systems that do intelligently what I currently do manually.
+
+I know where I'm going. I'm building toward it deliberately.

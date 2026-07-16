@@ -1,0 +1,9 @@
+CyberForge AI is the intelligent layer of this portfolio — and you're currently experiencing it.
+
+It's a keyword-detection chatbot engineered to respond to 100+ questions across 8 categories: my background, projects, technical skills, Python and data work, career goals, personal interests, and Easter egg commands.
+
+Current version: deterministic — keyword-matched responses from a structured JSON system. Designed for reliability, not randomness.
+
+Next version: I'm building a real LLM layer on top of this, making responses dynamic and context-aware.
+
+It's not a demo. It's a working product — and a proof of concept for what I'm building toward.

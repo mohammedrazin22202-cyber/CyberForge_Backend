@@ -1,0 +1,9 @@
+My backend stack for data-driven applications:
+
+Python — the primary processing layer. Pandas and NumPy for transformation, custom scripts for ETL logic, automation scripts for repetitive tasks.
+MySQL — structured relational data, normalized schemas, optimized queries, indexing for performance.
+MongoDB — for semi-structured or document-oriented data where a flexible schema is the right call.
+Docker — for containerizing environments so pipelines run consistently across machines.
+Git — version control on every project, always.
+
+I'm a Python data engineer, not a Node or Django backend developer. That distinction matters and I make it clearly.

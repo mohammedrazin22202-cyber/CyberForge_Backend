@@ -1,0 +1,5 @@
+OpenCV — Open Source Computer Vision Library — is the most widely used Python library for image and video processing.
+
+It handles foundational operations: reading and writing images, color space conversion, filtering, edge detection, contour analysis, and more advanced work like face detection with pre-trained classifiers.
+
+I've worked with OpenCV in my Python studies. It's a library where the basics are approachable and the depth is essentially unlimited. The more computer vision work you do, the more OpenCV you use.

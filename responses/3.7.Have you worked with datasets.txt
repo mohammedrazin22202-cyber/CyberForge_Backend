@@ -1,0 +1,7 @@
+Yes — at real scale.
+
+VConnect: 650,000+ records of real-world data from distributed sources. Inconsistent formats, missing values, duplicates, outliers, logical inconsistencies. Not a clean Kaggle dataset. Actual production data that required a multi-stage cleaning and validation pipeline.
+
+The experience taught me that working with real datasets is 80% cleaning and 20% analysis. Anyone who tells you differently hasn't worked with real data.
+
+I've also worked with structured datasets in SQL, JSON-format data in MongoDB, and various analytical datasets in EDA and visualization projects.

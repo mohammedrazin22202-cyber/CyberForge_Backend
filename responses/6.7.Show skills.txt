@@ -1,0 +1,11 @@
+SKILLS — FULL MANIFEST:
+
+Languages: Python, SQL (joins, CTEs, window functions), R
+Libraries: Pandas, NumPy, Matplotlib, Seaborn
+Databases: MySQL, MongoDB
+Visualization: Power BI, Excel, Matplotlib
+Tools: Git, Docker, Jupyter Notebook, VS Code
+Concepts: Data Cleaning, EDA, ETL, KPI Reporting, Statistical Analysis, Data Validation
+
+Certifications: Data Science & Analytics (GUVI) | Data Visualization (Great Learning)
+LeetCode: 1750+ problems | ~90% acceptance rate

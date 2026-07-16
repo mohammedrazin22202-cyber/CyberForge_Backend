@@ -1,0 +1,9 @@
+I never trust a search bar. 
+
+I use Parameterized Queries and Prepared Statements as a primary defense. 
+
+By separating the SQL command from the data, I ensure the database engine treats input strictly as a literal value. 
+
+Even if a malicious actor tries to inject a 'DROP TABLE' command into a village search, the database sees it as a string of text. 
+
+I also implement input scrubbing at the application layer to catch XSS attempts before they ever reach the persistence layer.

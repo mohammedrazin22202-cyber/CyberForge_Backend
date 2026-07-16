@@ -1,0 +1,9 @@
+Right now I'm actively pushing into three areas:
+
+1. Machine Learning — model building, evaluation, and real-world application using Scikit-learn. I've done the coursework. Now I'm building actual models with real datasets.
+
+2. Advanced SQL — window functions, CTEs, query optimization. The kind of SQL that shows up in technical interviews at data-heavy companies.
+
+3. AI integration — how to connect LLMs and APIs into products that do useful things. This chatbot is an early output of that thinking. The next version will have a real AI layer.
+
+I learn by building. Theory without shipping is just reading.

@@ -1,0 +1,7 @@
+I design for redundancy at every layer. 
+
+This means using Load Balancers to distribute traffic across multiple server instances and implementing database replication with automated failover. 
+
+If one region or instance goes down, the traffic is instantly rerouted. 
+
+I view redundancy not as a luxury, but as a core requirement for system resilience, ensuring that a single component failure never translates into a total service outage for the end-user.

@@ -1,0 +1,7 @@
+I noticed a bottleneck in our project's data ingestion that was causing delays for the entire team. 
+
+It wasn't 'my' module, but I proactively optimized the script during my downtime. 
+
+I view ownership as a 'team-first' mindset—if a problem impacts the final product, it’s my problem to help solve. 
+
+Taking that initiative saved hours of manual work and improved the overall morale, showing that I'm invested in the project's total success, not just my assigned tasks.

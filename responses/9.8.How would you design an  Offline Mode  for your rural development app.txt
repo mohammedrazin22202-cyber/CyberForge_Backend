@@ -1,0 +1,7 @@
+In rural settings, connectivity is inconsistent. 
+
+I design with an 'Offline-First' mindset using Service Workers and IndexedDB. 
+
+Data is cached locally on the device; once the device regains signal, a background sync process reconciles local changes with the central server. 
+
+I implement conflict resolution logic to ensure that if data was modified by two sources while offline, the most recent or relevant 'Single Truth' is preserved, ensuring no data is lost in transit.

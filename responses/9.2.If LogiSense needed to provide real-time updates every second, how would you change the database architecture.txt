@@ -1,0 +1,9 @@
+For a project like LogiSense, where fleet tracking is involved, 1-second updates are a functional requirement, not a luxury. 
+
+I move away from traditional HTTP long-polling, which is resource-intensive and lag-heavy, and implement WebSockets for a persistent, full-duplex connection. 
+
+To ensure this doesn't overwhelm the event loop at a FAANG scale, I utilize a Pub/Sub architecture with a message broker. 
+
+It’s about ensuring the data flows in a continuous stream rather than a series of heavy, disjointed pulses. 
+
+This architecture allows the system to push updates to thousands of clients simultaneously with sub-millisecond latency, providing a "live" feel that standard REST APIs simply cannot match.

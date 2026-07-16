@@ -1,0 +1,7 @@
+Technically — VConnect. Processing 650K+ records, building production-grade pipelines, achieving 41% efficiency gains — that's the project that required the most engineering discipline.
+
+But if you're asking which project best represents who I am as a builder — it's this chatbot.
+
+I designed the keyword detection logic, wrote all 100 responses personally, built the Matrix UI from scratch, and structured the entire system as a maintainable file architecture. It's not the largest project, but every decision was mine. That level of end-to-end ownership is something I'm proud of.
+
+Both projects prove different things. VConnect proves I can work at scale. The chatbot proves I think about craft.

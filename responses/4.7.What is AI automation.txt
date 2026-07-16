@@ -1,0 +1,5 @@
+AI automation is the use of artificial intelligence to perform tasks that previously required human judgment — not just mechanical repetition, but pattern recognition and contextual decision-making.
+
+The distinction from traditional automation: a script handles a fixed process. AI automation handles variability — it learns from examples and adapts to inputs it hasn't seen before.
+
+In my domain, AI automation means pipelines that don't just move data but interpret it — classifying records, flagging anomalies, generating summaries. That's the direction I'm building toward in my own project work.

@@ -1,0 +1,7 @@
+The hardest challenge in VConnect was silent data loss.
+
+I had a validation pipeline that was dropping records without logging why. At 650K records, silent failures are catastrophic — the output looks clean, but the numbers are wrong. That's the worst kind of bug because you don't know what you lost.
+
+It took two days to trace to a chained Pandas operation creating a DataFrame copy mid-pipeline. The validation was running on the copy, not the original. Fix was one line. Finding it was not.
+
+After that, I added structured logging to every stage — each one logs what it processed, what it modified, and what it dropped. That audit trail is now non-negotiable in anything I build.

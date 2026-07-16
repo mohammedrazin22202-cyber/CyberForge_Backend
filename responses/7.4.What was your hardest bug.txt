@@ -1,0 +1,7 @@
+In VConnect — a validation pipeline that was silently dropping records without logging why.
+
+At 650K records, silent failures are the worst kind of bug. The output looked clean. The numbers were wrong. I didn't know what I'd lost or why.
+
+Two days to trace it to a chained Pandas operation creating a DataFrame copy mid-pipeline. The validation ran on the copy, not the original. One-line fix. Two-day hunt.
+
+After that, I added structured logging to every pipeline stage — what was processed, what was modified, what was dropped and why. That audit trail is now non-negotiable in everything I build.

@@ -1,0 +1,7 @@
+LogiSense is a logistics intelligence system I built to bring real-time visibility to supply chain data.
+
+The problem it addresses: logistics operations generate enormous amounts of data — shipments, routes, delays, inventory levels — but that data often sits in silos. Decisions get made on yesterday's spreadsheet.
+
+LogiSense aggregates that data, processes it through a Python pipeline, and surfaces the key metrics in a dashboard so that decisions can be made in real time, not retrospectively.
+
+Same principle as VConnect — raw data is useless until you engineer it into something people can actually act on.

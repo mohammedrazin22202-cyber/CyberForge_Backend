@@ -1,0 +1,7 @@
+In LogiSense, race conditions could lead to double entries. 
+
+I manage this using Pessimistic Locking at the database level for high-conflict transactions, ensuring only one process writes to a record at a time. 
+
+For distributed scaling, I’d move to Optimistic Concurrency Control (OCC) using version stamps. 
+
+This ensures data integrity without sacrificing the throughput needed to handle thousands of logistics updates every second, maintaining a reliable ledger of shipment movements.

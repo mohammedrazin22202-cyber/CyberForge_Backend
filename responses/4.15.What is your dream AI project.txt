@@ -1,0 +1,7 @@
+An intelligent data pipeline that doesn't just process data — it understands it.
+
+Here's what I mean: current pipelines follow rules I write. My dream project would learn the rules from the data itself — detecting anomalies it's never seen before, flagging records that don't make contextual sense, and generating natural-language summaries of what it finds.
+
+Basically: an AI data analyst that handles the grunt work and surfaces only what genuinely needs human attention.
+
+The technology to build this exists. The skill to architect it cleanly is what I'm building toward. That's the goal.

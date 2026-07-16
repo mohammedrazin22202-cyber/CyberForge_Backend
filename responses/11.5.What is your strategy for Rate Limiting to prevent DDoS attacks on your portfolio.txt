@@ -1,0 +1,7 @@
+I implement Rate Limiting using the Token Bucket algorithm to throttle excessive requests from single IP addresses. 
+
+By capping the number of calls per minute, I prevent spam bots from overwhelming the server. 
+
+I also leverage cloud-native DDoS protection services that filter out malicious traffic at the edge. 
+
+I view this as a 'digital firebreak'—stopping a surge in bad traffic before it can consume the resources meant for genuine users.

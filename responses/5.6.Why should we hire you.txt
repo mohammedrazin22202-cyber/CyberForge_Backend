@@ -1,0 +1,9 @@
+Because I don't just know the tools — I've used them on real problems at real scale.
+
+650,000 records. Production pipelines. 41% efficiency improvement. Power BI dashboards used by real stakeholders. Two hackathon wins. 1750+ LeetCode problems at 90% acceptance.
+
+That's not a credentials list. That's evidence of what I can do under pressure, at scale, with ownership.
+
+I also come from a commerce background before tech — which means I think about data in terms of business impact, not just technical correctness. Most pure CS candidates don't have that perspective.
+
+You're not hiring potential. You're hiring someone with demonstrated output who's just getting started.

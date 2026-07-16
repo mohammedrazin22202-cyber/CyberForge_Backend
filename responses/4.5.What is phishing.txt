@@ -1,0 +1,7 @@
+Phishing is a social engineering attack where someone is deceived into revealing sensitive information — passwords, credentials, financial data — by impersonating a trusted entity.
+
+The attack surface is human psychology, not technical systems. A convincing fake email, a spoofed login page, a fraudulent SMS — the goal is to make the target act before they think critically.
+
+It's one of the most common and effective attack vectors in cybersecurity. Not because it's technically sophisticated, but because humans are the hardest system to patch.
+
+Awareness is the primary defense: know what phishing looks like, slow down, verify before you trust.

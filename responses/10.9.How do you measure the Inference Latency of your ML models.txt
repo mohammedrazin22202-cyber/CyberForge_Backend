@@ -1,0 +1,9 @@
+I measure inference latency as the total time from input receipt to prediction delivery. 
+
+I use profiling tools to benchmark this in milliseconds. 
+
+At a FAANG scale, even a 100ms delay can hurt UX. 
+
+I optimize this by pruning models or using quantization to reduce the computational footprint. 
+
+I view 'thinking time' as a resource cost—the more efficient the inference, the better the user experience and the lower the operational cost of the AI.

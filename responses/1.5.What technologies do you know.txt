@@ -1,0 +1,17 @@
+Here's my honest stack — no inflation:
+
+Languages: Python (primary), SQL (joins, CTEs, window functions), R
+Libraries: Pandas, NumPy, Matplotlib, Seaborn
+Databases: MySQL, MongoDB
+Visualization: Power BI, Excel, Matplotlib
+Tools: Git, Docker, Jupyter Notebook, VS Code
+Concepts: Data Cleaning, EDA, ETL, KPI Reporting, Statistical Analysis, Data Validation
+
+Certifications:
+— Data Science and Analytics (GUVI, May 2025)
+— Data Acquisition and Manipulation (GUVI, May 2025)
+— Data Visualization with Python (Great Learning, Feb 2025)
+
+Coursework: SQL, MongoDB, Artificial Intelligence, Machine Learning.
+
+I know what I know well. And I'm honest about what I'm still building.

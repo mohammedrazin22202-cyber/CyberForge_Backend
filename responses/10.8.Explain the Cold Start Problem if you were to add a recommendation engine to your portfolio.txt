@@ -1,0 +1,9 @@
+The Cold Start problem is about delivering value when data is scarce. 
+
+For new users with no history, I leverage Content-Based Filtering and initial metadata from registration. 
+
+Instead of waiting for behavior patterns to form, I use their profile to provide a 'warm start.' 
+
+It ensures value is delivered from minute one. 
+
+In a professional ecosystem, you can't afford a 'learning period' where the user is unsatisfied; you have to use every scrap of available data to be relevant immediately.

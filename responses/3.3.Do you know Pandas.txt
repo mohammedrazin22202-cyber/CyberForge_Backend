@@ -1,0 +1,7 @@
+Yes — and I'd call it my strongest Python skill.
+
+I've used Pandas on 650,000+ records in a production pipeline. That's not tutorial territory. At that scale you have to think about memory — chunking large files, using appropriate dtypes, avoiding unnecessary DataFrame copies that silently double memory usage.
+
+Beyond the basics, I'm comfortable with: complex groupby aggregations, multi-index DataFrames, merge/join strategies and their performance tradeoffs, apply with custom functions, and handling messy real-world null patterns that don't fit textbook examples.
+
+Pandas is where I've put the most hours. It shows.

@@ -1,0 +1,9 @@
+I'm Mohammed Razin H — a Data Analyst and developer based in Chennai.
+
+I hold an MCA from Measi Institute of Information Technology and a B.Com from The New College, University of Madras. That combination is rarer than it sounds — I understand both the technical side and the business side of data. Most analysts speak one language. I speak both.
+
+I've worked with large-scale datasets — 650,000+ records — building cleaning pipelines, running EDA, and shipping Power BI dashboards that help people make better decisions.
+
+I also build things. VConnect, LogiSense, this chatbot — real projects, not tutorials.
+
+If you want to see what I'm actually capable of, I'm happy to walk you through any of them.

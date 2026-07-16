@@ -1,0 +1,12 @@
+LogiSense operates in three clean layers:
+
+1. DATA INGESTION
+Pulls in logistics data from relevant sources, normalizes inconsistent formats, and loads it into a structured database.
+
+2. PROCESSING
+Python handles the transformation logic — calculating KPIs, flagging anomalies, aggregating by route, region, or time window. Pandas for the heavy lifting, NumPy for numerical operations.
+
+3. VISUALIZATION
+Processed data feeds into a Power BI dashboard where stakeholders can track performance, filter by dimension, and catch issues before they escalate.
+
+Each layer is independent. You can swap the visualization layer without touching the pipeline. That modularity was a deliberate design decision.

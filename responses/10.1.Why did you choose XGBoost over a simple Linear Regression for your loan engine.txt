@@ -1,0 +1,7 @@
+I chose XGBoost over a simple Linear Regression because financial and demographic data is rarely linear—there are complex, hidden interactions between variables that a simple regression line just misses. 
+
+My background in Chartered Accountancy has taught me that financial risk isn't a straight line; it’s a web of dependencies. 
+
+XGBoost handles those non-linear patterns through its gradient boosting framework and provides built-in L1/L2 regularization, which was critical in preventing the model from overfitting on the smaller datasets we gathered during the pilot phase. 
+
+It allowed me to prioritize model interpretability through feature importance rankings while maintaining a much higher predictive accuracy than traditional statistical models.

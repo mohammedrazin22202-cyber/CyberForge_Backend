@@ -1,0 +1,7 @@
+Because it's the highest-leverage tool I've found for solving real problems.
+
+One good Python script can do in minutes what would take a person days. One well-designed dashboard can change how an entire team makes decisions. One platform can connect hundreds of thousands of data points that were previously invisible.
+
+I came from a commerce background. I understood business problems before I understood technical solutions. Technology became the answer to questions I already knew how to ask.
+
+That's still how I think about it: not "what can I build with this?" but "what problem does this solve, and is technology the right tool?"

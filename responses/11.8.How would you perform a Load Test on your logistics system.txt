@@ -1,0 +1,9 @@
+I perform load tests using stress-testing tools to simulate thousands of concurrent users. 
+
+I measure throughput and latency to find the system's breaking point. 
+
+This identifies bottlenecks, such as slow DB queries or memory leaks, before they hit production. 
+
+It’s about 'battle-hardening' the code. 
+
+By pushing the system to its limit in a controlled environment, I ensure it can handle real-world logistics surges without performance degradation.

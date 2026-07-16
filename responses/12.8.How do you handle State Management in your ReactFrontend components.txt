@@ -1,0 +1,7 @@
+I use the Context API or Redux for global state and hooks for local state. 
+
+I follow a unidirectional data flow to ensure the state is predictable and easy to debug. 
+
+I view state management as the 'memory' of the UI; it must be clean and consistent to prevent UI glitches. 
+
+By centralizing the state logic, I ensure that as the frontend grows in complexity, the data remains synchronized across all components without prop-drilling.

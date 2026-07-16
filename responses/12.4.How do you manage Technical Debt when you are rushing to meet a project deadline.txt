@@ -1,0 +1,7 @@
+I treat Technical Debt like a 'Financial Loan'—it's a tool to buy time, but you must pay it back with interest. 
+
+When rushing, I might choose a simpler, 'good enough' solution, but I immediately document it in a Refactoring Backlog. 
+
+I prioritize debt repayment in subsequent sprints to prevent the codebase from becoming 'bankrupt'. 
+
+My focus is on Sustainable Velocity; I’m willing to take a short-term shortcut as long as long-term architectural integrity is never compromised.

@@ -1,0 +1,7 @@
+The feeling of making something that didn't exist before — and watching it work.
+
+The moment a pipeline runs cleanly on messy data. The moment a dashboard surfaces a pattern that changes how someone makes a decision. The moment a system I built handles a case I didn't specifically anticipate.
+
+That feedback loop — build, test, see it work, make it better — is genuinely satisfying in a way that's hard to articulate but easy to recognize.
+
+Beyond that: I want to build things that matter. Data that helps people make better decisions. That's not a platitude — it's what VConnect was about.

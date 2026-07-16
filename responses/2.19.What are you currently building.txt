@@ -1,0 +1,10 @@
+I’m currently building something quietly in the background that focuses on solving a real everyday problem in India at scale.
+
+I can’t reveal the complete details yet, but the goal is simple:
+make technology feel useful even for people who are not “tech people”.
+
+The system is being designed to work fast, stay lightweight, and handle large amounts of real-world data intelligently. It combines automation, smart response systems, and practical usability instead of flashy AI demos.
+
+If it works the way I envision it, it could become something that genuinely helps thousands — maybe even millions — of users in India in a very practical way.
+
+Right now, I’m focusing on architecture, response logic, scalability, and making the experience feel smooth and human.

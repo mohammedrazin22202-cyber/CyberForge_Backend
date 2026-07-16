@@ -1,0 +1,9 @@
+I turn raw, messy data into insights that actually drive decisions.
+
+Technically: I write Python pipelines to clean and process large datasets, run EDA to surface patterns, build Power BI dashboards for KPI tracking, and work with MySQL and MongoDB on the database side.
+
+Practically: I built VConnect — a platform that processed 650,000+ records and improved data workflow efficiency by 41%. That's not a classroom exercise. That's real-scale data engineering with measurable business impact.
+
+I also build beyond data — chatbots, logistics systems, web tools. I like solving the whole problem, not just my part of it.
+
+If you have a data problem, I can probably help you solve it.

@@ -1,0 +1,5 @@
+In solo projects — everything. Architect, developer, data engineer, dashboard designer, tester, and presenter.
+
+That full ownership is genuinely valuable. When you've built every layer of a system yourself, you understand how the pieces interact. You don't design a schema without thinking about how it'll be queried. You don't build a dashboard without thinking about how the data was cleaned.
+
+In team settings — hackathons — I gravitated toward the data processing and backend logic while staying involved in the overall solution architecture. I'm not someone who puts their head down and disappears. I stay in sync with what the team is building.

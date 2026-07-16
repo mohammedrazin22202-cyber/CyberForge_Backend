@@ -1,0 +1,7 @@
+I implement headers like Content-Security-Policy (CSP) to prevent XSS and X-Frame-Options to stop clickjacking. 
+
+I also use Strict-Transport-Security to enforce HTTPS. 
+
+These headers are a 'security handshake' between the server and the browser, hardening the application against common web vulnerabilities. 
+
+I view this as the 'digital perimeter' of my projects—ensuring that the browser respects the safety protocols I’ve built into the backend.

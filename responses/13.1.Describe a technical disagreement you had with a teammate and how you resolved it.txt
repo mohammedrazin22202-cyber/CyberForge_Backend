@@ -1,0 +1,7 @@
+I believe in Evidence-based Decision Making. 
+
+In a recent project, a teammate and I disagreed on using SQL vs. NoSQL. Instead of arguing, I built a quick Benchmarking Suite for both. We measured query latency for complex joins versus document retrievals using 650k+ records. 
+
+The data proved SQL was 30% faster for our specific reporting needs. 
+
+The team aligned immediately because I replaced a subjective argument with objective data, which is the fastest way to achieve consensus in engineering.

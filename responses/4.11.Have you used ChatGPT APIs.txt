@@ -1,0 +1,7 @@
+Not in a production project yet — and I'd rather say that clearly than overstate it.
+
+What I do understand: the architecture of integration. API key management, request structure, response parsing, rate limit handling, and the prompt design that makes outputs reliable and consistent.
+
+This chatbot is my first step in that direction — a deterministic keyword-based system I'm planning to layer a real LLM on top of. The structure is ready. The API integration is the next phase.
+
+I learn by building. That build is in progress.

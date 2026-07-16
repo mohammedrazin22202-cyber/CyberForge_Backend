@@ -1,0 +1,5 @@
+In my current project work, my focus has been on data pipelines rather than heavy external API consumption — but I understand REST API architecture and have integrated APIs in web and automation contexts.
+
+With this chatbot, I'm also exploring AI API integration — prompt structure, response parsing, building useful products on top of language models.
+
+The honest answer: my API experience is real but still developing. I'd rather say that clearly than overstate it. The architecture knowledge is there. The production depth is what I'm building next.

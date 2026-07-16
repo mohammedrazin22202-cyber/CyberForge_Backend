@@ -1,0 +1,9 @@
+Ethical AI is a priority. 
+
+I performed a Disparate Impact Analysis, ensuring accuracy across all village demographics. 
+
+If a model is 99% accurate but fails for a minority village, it’s a liability. 
+
+I optimize for Demographic Parity, ensuring the AI’s social impact is as balanced as its mathematical performance. 
+
+Fairness is a core metric of engineering quality, and I build audits into the pipeline to ensure equity is maintained as data evolves.

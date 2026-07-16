@@ -1,0 +1,7 @@
+Python — without hesitation.
+
+Not because it's trendy, but because of what it lets me do. The same language I use to clean 650,000 records, I use for automation, visualization, machine learning, and API integration.
+
+The readability is real. Code I wrote six months ago is still legible today. That matters when you're maintaining production pipelines.
+
+Second pick: SQL. Not a "language" in the traditional sense, but fluency in SQL is essential for data work and I take it seriously. It's the language data speaks.

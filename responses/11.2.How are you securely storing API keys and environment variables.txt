@@ -1,0 +1,9 @@
+I never hardcode credentials. 
+
+I use Secret Management services and encrypted Environment Variables injected at runtime. 
+
+For my current builds on Render or Netlify, these secrets are managed outside the repository. 
+
+Even if the source code is compromised, the API keys remain hidden. 
+
+I view this as a core tenet of engineering integrity—protecting the 'keys to the kingdom' is the first step in building a trustworthy, professional-grade application.

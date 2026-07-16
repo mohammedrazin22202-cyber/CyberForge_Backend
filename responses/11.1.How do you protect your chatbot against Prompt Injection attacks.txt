@@ -1,0 +1,5 @@
+I treat user input as 'untrusted data' by default. 
+
+I implement Instruction Isolation using strict XML-style delimiters to ensure the LLM can clearly distinguish between system rules and user queries. Furthermore, I apply a multi-layered validation strategy where the output is scanned for sensitive data leakage before rendering. 
+
+It’s about creating a 'sandbox' for the conversation, ensuring the bot remains helpful without ever exposing its underlying system logic or private API configurations.

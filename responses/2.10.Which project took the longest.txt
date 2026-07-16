@@ -1,0 +1,7 @@
+VConnect — by a significant margin.
+
+The technical scope was large, but what took the most time wasn't the code. It was getting the data right.
+
+Real-world datasets don't behave the way tutorial datasets do. The cleaning pipeline went through multiple full redesigns as I discovered new categories of inconsistency I hadn't anticipated. Each redesign was an opportunity to build it better — but it added time.
+
+The optimization phase alone — profiling, identifying bottlenecks, rewriting the slow sections — was its own significant chunk of work. The 41% efficiency improvement came from that phase. It wasn't given. It was earned.

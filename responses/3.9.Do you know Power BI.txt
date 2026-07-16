@@ -1,0 +1,5 @@
+Yes — I built real dashboards with it in VConnect.
+
+The dashboards tracked business KPIs from a processed 650K+ record dataset — giving stakeholders visibility into trends that were previously buried in raw data. That meant designing data models, establishing table relationships, writing DAX measures for calculated KPIs, and building layouts that told a clear story without overwhelming the viewer.
+
+The key thing I've learned: Power BI quality depends entirely on the data model underneath it. Most people go wrong there. I don't — because the pipeline producing the data was engineered correctly first.

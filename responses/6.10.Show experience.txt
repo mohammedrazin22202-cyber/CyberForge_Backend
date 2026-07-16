@@ -1,0 +1,15 @@
+EXPERIENCE LOG:
+
+💼 Data Analyst Intern
+   → Processed and analyzed 650K+ records using Python (Pandas, NumPy)
+   → Built data cleaning and validation pipelines from scratch
+   → Optimized processing workflows — 41% efficiency improvement
+   → Performed EDA to identify trends and patterns
+   → Built interactive Power BI dashboards for KPI tracking
+
+🎓 MCA — Measi Institute of Information Technology
+   University of Madras | Completed 2026
+   Coursework: SQL, MongoDB, AI, Machine Learning
+
+🎓 B.Com — The New College
+   University of Madras | June 2024

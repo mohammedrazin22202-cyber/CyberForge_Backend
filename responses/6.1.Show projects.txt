@@ -1,0 +1,16 @@
+PROJECTS — LOADED:
+
+🔵 VConnect — Large-Scale Data Analytics Platform
+   Processed 650K+ records | Python, Pandas, NumPy, Power BI
+   41% improvement in processing efficiency
+   KPI dashboards for business decision-making
+
+🟢 LogiSense — Logistics Intelligence System
+   Real-time logistics data aggregation and visualization
+   Python, MySQL, Power BI | Modular 3-layer architecture
+
+🟡 CyberForge Bot — Portfolio AI Chatbot
+   100-question keyword-detection system | Matrix UI
+   HTML, CSS, JavaScript, JSON | Zero backend dependency
+
+Ask about any project for a full breakdown.

@@ -1,0 +1,7 @@
+Machine learning is what happens when you stop writing rules manually and let the system learn patterns from data instead.
+
+Classic example: instead of writing if-else rules to detect anomalies, you train a model on historical examples and it learns to distinguish normal from abnormal on its own.
+
+My ML exposure covers the fundamentals: supervised vs. unsupervised learning, model training and evaluation, overfitting vs. underfitting, and core algorithms — linear regression, decision trees, classification models.
+
+Done through MCA coursework and GUVI certification. The next step — building and deploying a model on my own real datasets — is what I'm actively working on now.

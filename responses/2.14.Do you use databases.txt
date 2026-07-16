@@ -1,0 +1,7 @@
+Yes — and I use the right one for the job.
+
+MySQL: when the data is relational and structured. Transactional data, normalized schemas, complex joins. I write queries that go well beyond SELECT * — window functions, subqueries, indexing strategies, query optimization.
+
+MongoDB: when the schema needs to be flexible or the data is document-oriented. JSON-native storage for cases where relational structure would be overkill or counterproductive.
+
+Both are in my coursework and in my project work. I understand the tradeoff — not just the syntax.

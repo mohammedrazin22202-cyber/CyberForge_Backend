@@ -1,0 +1,15 @@
+> ACTIVATING AI MODE...
+
+Standard keyword detection: SUSPENDED
+Neural response layer: ENGAGING...
+
+...
+
+Full AI mode is the next version. What you're talking to right now is v2 — deterministic, structured, engineered with precision.
+
+V3 will have live LLM integration. The architecture is planned. The API integration is in active development.
+
+For now: 100 questions, 8 categories, all written personally by Mohammed Razin. No hallucinations. No generic responses. Honest answers.
+
+> AI MODE: ACTIVE (v2.0)
+> Upgrade to v3 ETA: soon.

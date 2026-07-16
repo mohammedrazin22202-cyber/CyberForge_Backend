@@ -1,0 +1,7 @@
+Data Analytics with Python — that's my core.
+
+More specifically: taking large, messy, real-world datasets and turning them into clean, structured, actionable intelligence. I've done this at scale — 650,000+ records in VConnect — with measurable results: 41% improvement in processing efficiency.
+
+Secondary strengths: SQL, Power BI, data visualization, and ETL pipeline design.
+
+The direction I'm building toward: machine learning and AI-integrated data systems. The foundation is strong. The trajectory is clear.

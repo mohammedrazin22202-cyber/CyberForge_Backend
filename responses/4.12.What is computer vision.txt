@@ -1,0 +1,5 @@
+Computer vision is the field of AI that teaches machines to interpret and understand visual information — images and video — the way humans do.
+
+Applications: object detection, facial recognition, medical image analysis, autonomous vehicles, quality control in manufacturing, document digitization.
+
+I've been exposed to computer vision through OpenCV in my Python studies. The fundamentals — image processing, edge detection, feature extraction — are concepts I've worked with. Not my deepest specialization, but it's in my toolkit.

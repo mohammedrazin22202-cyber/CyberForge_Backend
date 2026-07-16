@@ -1,0 +1,9 @@
+I once encountered a Python data-cleaning script that was choking on 600k+ records. 
+
+By profiling the code, I found the bottleneck was in repeated list lookups. 
+
+I replaced those with set-based lookups and used vectorized operations in Pandas, reducing execution time from 20 minutes to under 30 seconds. 
+
+It taught me that 'brute force' code fails at scale. 
+
+Optimization isn't just about speed; it's about making the most of every CPU cycle available.

@@ -1,0 +1,7 @@
+People who build things that quietly matter.
+
+Not the startup hype — the engineer who processes thousands of records to give a government department accurate data for the first time. The developer who automates a manual process and gives someone three hours of their week back. The analyst whose dashboard catches an anomaly that saves a company from a bad decision.
+
+That's the kind of work that inspires me. Craft applied to real problems, at the right scale, without fanfare.
+
+VConnect was partly driven by that — the idea that data infrastructure can have genuine human impact.

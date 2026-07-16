@@ -1,0 +1,9 @@
+CyberForge is my portfolio — but calling it "just a portfolio" would undersell it.
+
+It's a deliberate statement about how I approach my work: precise, systematic, and a little unconventional. The name comes from the idea of forging tools in the digital space — with craftsmanship, not shortcuts.
+
+Every project here — VConnect, LogiSense, this chatbot — is something I designed, built, and shipped from scratch. No boilerplate. No filler. No tutorial clones.
+
+The chatbot you're talking to right now covers 100 questions across 8 categories. I wrote every response. I built every component.
+
+CyberForge is where I prove what I can do.

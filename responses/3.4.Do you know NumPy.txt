@@ -1,0 +1,7 @@
+Yes — I use NumPy as the numerical backbone beneath my Pandas work.
+
+Where Pandas handles structure and labeling, NumPy handles the computation. Vectorized operations, array broadcasting, mathematical transformations — NumPy does these faster than any loop-based approach by a significant margin.
+
+In VConnect, I used NumPy for the numerical processing stages where performance mattered most. Part of the 41% efficiency improvement came from replacing iterative logic with vectorized NumPy operations.
+
+Not my headline skill, but a real and applied one.

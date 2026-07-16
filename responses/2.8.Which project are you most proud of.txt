@@ -1,0 +1,9 @@
+VConnect — without hesitation.
+
+Not because it's the flashiest, but because of what it actually took to build.
+
+650,000 records of real-world data doesn't clean itself. The inconsistencies were layered — format issues on top of missing values on top of duplicate entries on top of outliers that broke assumptions. Each problem required a principled solution, not a workaround.
+
+The 41% efficiency improvement wasn't a target I set upfront. It was the result of genuinely profiling the pipeline, finding the bottlenecks, and redesigning the slow parts. That's not something you get from following a tutorial.
+
+That project is the clearest example of what I'm actually capable of.

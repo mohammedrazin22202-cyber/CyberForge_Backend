@@ -1,0 +1,7 @@
+A model is only as good as the data it was trained on. 
+
+I implement Statistical Monitoring using the Kolmogorov-Smirnov test to compare live data distributions against the training set. 
+
+If I see a significant Population Stability Index shift, it triggers an alert for retraining. 
+
+I treat model performance like a financial audit—regularly checking inputs to ensure the logic still matches the 'market reality' of village demographics, preventing accuracy decay over time.

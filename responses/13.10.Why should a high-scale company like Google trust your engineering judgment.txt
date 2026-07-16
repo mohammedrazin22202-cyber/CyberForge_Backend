@@ -1,0 +1,9 @@
+You should trust my judgment because I build with a 'fiduciary mindset'. 
+
+My unique background in CA makes me hyper-aware of the 'hidden costs' of technical debt and inefficient algorithms. 
+
+I don't just write code that 'works'; I build code that is resource-efficient and scalable. 
+
+I understand that in a high-scale environment, a 1% inefficiency can translate into millions in overhead. 
+
+I solve for that 1% at the design phase, bringing a combination of financial risk awareness and peak technical execution.

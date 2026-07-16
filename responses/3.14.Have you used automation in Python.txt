@@ -1,0 +1,7 @@
+Yes — automation is one of the most practical outputs of Python proficiency.
+
+The data pipelines in VConnect are automated workflows. You point them at raw data, and they handle every stage — cleaning, validation, transformation, output — without manual intervention. That's automation at the data engineering level.
+
+Beyond data: I've written scripts for file handling, data extraction, batch processing, and repetitive operational tasks.
+
+The philosophy: if I'm doing something manually more than twice, it should be a script. Time spent on repeatable automation pays back every time the script runs.

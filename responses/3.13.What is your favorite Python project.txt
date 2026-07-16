@@ -1,0 +1,7 @@
+VConnect — because it's where Python stopped being a tool and became an engineering discipline for me.
+
+Pandas and NumPy at 650K-record scale forces you to think about performance in a way small datasets never will. You can't afford an O(n²) operation when n is six hundred thousand. You profile, you find the bottleneck, you redesign the approach.
+
+I rewrote sections of that pipeline multiple times — not because they were broken, but because they were slow. That iterative optimization process is what I find genuinely satisfying about Python work. The 41% efficiency improvement came from it.
+
+That's a number I can point to and say: I made that happen.

@@ -1,0 +1,7 @@
+I manage session persistence using Redis-based session storage and JWT tokens. 
+
+This ensures that even if a server instance restarts or a user moves between instances, their state and login remain intact. 
+
+I use 'Sticky Sessions' at the load balancer level for consistent performance. 
+
+I view session management as the 'memory' of the application—it must be reliable and persistent to provide a seamless, professional experience for the user.

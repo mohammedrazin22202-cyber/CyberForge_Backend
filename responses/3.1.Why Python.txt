@@ -1,0 +1,7 @@
+Python chose me before I fully chose it — but once I went deep, the reasons became obvious.
+
+For data work: nothing matches the combination of Pandas + NumPy for processing speed, readability, and ecosystem depth. I can write a cleaning pipeline that handles 650K records and have another person read it without a walkthrough. That readability is a feature, not a coincidence.
+
+For versatility: the same language I use for data analysis, I use for automation, API integration, and machine learning. One language, full stack.
+
+For career alignment: Python is the language of data science, ML, and AI. That's where the field is going. Python is the right foundation to be on.

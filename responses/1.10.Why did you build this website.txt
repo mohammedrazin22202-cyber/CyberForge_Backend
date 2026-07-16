@@ -1,0 +1,7 @@
+Because a PDF resume doesn't show what I can actually build.
+
+Anyone can write "Power BI" and "Python" on a resume. Showing it is a different thing entirely. CyberForge is the proof of work — every project here is something I engineered from scratch, not cloned from a tutorial.
+
+The chatbot specifically was intentional. I wanted the portfolio itself to be interactive, technically impressive, and memorable. If a recruiter talks to this bot and thinks "this person clearly knows what they're doing" — goal achieved.
+
+A portfolio should be a product. This is mine.

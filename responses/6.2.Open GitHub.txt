@@ -1,0 +1,5 @@
+GitHub: https://github.com/mohammedrazin22202-cyber
+
+That is where the actual code belongs: project structure, commit history, and the way I think through implementation.
+
+If you are reviewing me as a candidate, GitHub is the best place to inspect how I build beyond the portfolio surface.

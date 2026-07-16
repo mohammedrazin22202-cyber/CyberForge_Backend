@@ -1,0 +1,9 @@
+With 50% missing data, I look for patterns. 
+
+If a feature is missing at random, I use KNN Imputation to preserve the record's context. 
+
+However, if the missingness is non-random, it often carries its own signal. 
+
+I avoid mass deletion as it wastes valuable data. 
+
+I treat missing values like 'missing ledger entries' in accounting—you don't just delete the transaction; you investigate the source and use the most logical estimation to maintain the integrity of the whole.

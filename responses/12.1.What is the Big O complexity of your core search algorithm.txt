@@ -1,0 +1,9 @@
+I always analyze code through the lens of Computational Scalability. 
+
+For village search, I moved from a O(n) linear search to a Hash-Map based lookup, achieving O(1) time complexity for direct ID retrievals. 
+
+For partial matches, I utilize Indexed Search, keeping us at O(log n). 
+
+I understand that at Google scale, O(n) isn't just 'slow'—it's an expensive drain on resources. 
+
+By optimizing the growth rate, I ensure response times remain sub-millisecond, regardless of dataset size.

@@ -1,0 +1,5 @@
+I move beyond basic SQL 'LIKE' queries, which fail at scale. Instead, I implement Full-Text Search using an inverted index. 
+
+By utilizing tools like Elasticsearch or indexing strategies within Postgres, I ensure query times remain sub-millisecond even as the record count grows. 
+
+This allows for fuzzy matching and relevance ranking, ensuring villagers find exactly what they need instantly, rather than waiting for a full-table scan to complete.

@@ -1,0 +1,7 @@
+Currently in my workflow:
+
+AI assistants — for code review, debugging acceleration, and documentation. I use them critically, not blindly. I evaluate output before I trust it.
+
+Prompt engineering practice — designing structured prompts for specific outputs. The architecture of this chatbot's response system reflects that thinking directly.
+
+On the roadmap: integrating LLM APIs into real projects. Context management, response parsing, fallback handling — the infrastructure side of AI products. That's what I'm learning to build next.

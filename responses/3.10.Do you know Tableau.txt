@@ -1,0 +1,7 @@
+Tableau isn't in my current primary stack — Power BI is my dashboarding tool.
+
+That said, the core skills transfer directly: data modeling, relationship design, calculated fields, designing dashboards for clarity. The thinking is the same. The interface is different.
+
+If a role requires Tableau, I'd get up to speed quickly. I've read enough about both tools to understand where they differ and why. Learning the interface is the fast part when the underlying concepts are solid.
+
+I'd rather be honest about what I've used in production than overstate a tool I haven't.

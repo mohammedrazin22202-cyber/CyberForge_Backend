@@ -1,0 +1,5 @@
+I handle idempotency by ensuring that repeating an API call has no side effects. 
+
+This is critical for preventing double-payments or duplicate records. I use unique 'Request IDs' that the server tracks; if a request with the same ID hits the server twice, the server returns the cached result of the first call. 
+
+I view this as a 'transactional safety net'—ensuring that regardless of network retries, the final state of the system remains consistent and correct.

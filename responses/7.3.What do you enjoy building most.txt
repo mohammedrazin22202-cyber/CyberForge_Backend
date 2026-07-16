@@ -1,0 +1,7 @@
+Data pipelines that take chaos and produce clarity.
+
+There's something genuinely satisfying about taking 650,000 records of inconsistent, messy, real-world data — and producing a clean, structured dataset that tells a real story. Each stage of the pipeline adds signal and removes noise.
+
+I also enjoy building things that other people actually interact with. This chatbot is a good example. Watching it respond correctly to a question a recruiter types — that's satisfying in a different, more human way.
+
+Both feed the same instinct: build something that works, and works well.

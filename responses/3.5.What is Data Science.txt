@@ -1,0 +1,5 @@
+Data Science is the discipline of extracting meaningful insight from data — and then communicating that insight in a way that drives real decisions.
+
+The way I actually think about it: raw data is noise. Data science is the process of turning noise into signal. That means cleaning the data, understanding its structure, finding patterns, and presenting findings to people who need to act on them.
+
+VConnect is a concrete example. 650,000 records of raw data — cleaned, structured, analyzed, and visualized into dashboards that stakeholders can actually use. That's data science applied to a real problem, not a Kaggle competition.

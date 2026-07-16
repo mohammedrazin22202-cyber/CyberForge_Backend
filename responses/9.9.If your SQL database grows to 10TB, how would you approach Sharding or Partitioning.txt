@@ -1,0 +1,7 @@
+At a 10TB scale, vertical scaling is obsolete. 
+
+I would implement Horizontal Partitioning (Sharding). For VConnect, I’d shard by Village ID. 
+
+This keeps related records on the same node, minimizing cross-shard joins and ensuring query performance stays constant as the number of villages grows. 
+
+I look at this as a risk management strategy: by distributing the load, we eliminate 'hotspots' and ensure a localized surge doesn't bring down the entire global registry.

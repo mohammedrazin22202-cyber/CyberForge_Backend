@@ -1,0 +1,5 @@
+Ethical hacking — penetration testing — is the authorized practice of attacking a system the way a malicious actor would, in order to find vulnerabilities before someone with bad intent does.
+
+The "ethical" part is critical: it's done with explicit permission, within defined scope, with the goal of improving security rather than exploiting it.
+
+It requires deep understanding of how systems work — network protocols, authentication flows, application architecture — so you know where the weak points are. It's one of the most technically demanding and socially important applications of computer science.

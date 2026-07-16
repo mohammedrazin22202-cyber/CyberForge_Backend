@@ -1,0 +1,11 @@
+My latest shipped project is CyberForge Bot — the chatbot you're currently using.
+
+It's a fully frontend-based portfolio assistant with keyword detection across 100 questions, a Matrix-themed canvas animation, quick-access chips, smooth UX, and a structured JSON response architecture.
+
+Stack: HTML, CSS, JavaScript, JSON. Zero backend dependencies. Runs entirely in the browser.
+
+Timeline before that:
+→ LogiSense — logistics intelligence dashboard (Python, MySQL, Power BI)
+→ VConnect — 650K-record data analytics platform
+
+Each project pushed further than the last. That's intentional.

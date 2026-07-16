@@ -1,0 +1,5 @@
+VConnect processes data at the scale of 650,000+ records representing a large volume of real-world rural data points.
+
+The platform wasn't designed around a fixed number of entries — it was built to handle whatever volume the data came in at, cleanly and efficiently. That's the architectural decision that mattered: scalability by design, not by accident.
+
+The 41% efficiency improvement came directly from optimizing how data moved through the pipeline — chunking, vectorized operations, and stage-by-stage logging so nothing failed silently.

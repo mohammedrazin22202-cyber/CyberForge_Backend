@@ -1,0 +1,7 @@
+The honest answer: AI will replace the work, not the workers who adapt.
+
+AI will automate the routine parts of software development. Boilerplate, basic scripts, simple CRUD APIs. If that's the full scope of your value, yes, that's at risk.
+
+But developers who understand systems deeply — who can architect solutions, evaluate whether AI output is actually correct, and use AI as a force multiplier — those people become more valuable, not less.
+
+My view: the floor for what "developer" means is rising fast. The ceiling is higher than it's ever been. Adapt, or be replaced by someone who does.

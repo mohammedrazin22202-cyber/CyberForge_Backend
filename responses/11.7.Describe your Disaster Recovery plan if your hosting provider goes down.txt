@@ -1,0 +1,9 @@
+I design for the worst-case scenario. 
+
+My plan centers on Geographic Redundancy and automated Database Snapshots replicated to secondary regions. 
+
+If the primary host fails, I have failover scripts ready to point DNS to a mirror environment. 
+
+My goal is a low Recovery Time Objective (RTO)—getting back online in minutes. 
+
+I view downtime as 'Lost Capital,' so my architecture is built to survive total regional outages without losing a single village report or shipment record.

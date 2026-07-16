@@ -1,0 +1,5 @@
+Encryption is the process of transforming data into a format that's unreadable without the correct key — so that even if data is intercepted, it can't be used.
+
+Two main types: symmetric (same key encrypts and decrypts) and asymmetric (public key encrypts, private key decrypts). HTTPS uses a combination of both to secure web traffic.
+
+In my own work, encryption informs how I think about data at rest and in transit — especially when pipelines handle sensitive records. You don't store raw credentials. You don't transmit sensitive data over unencrypted channels. Non-negotiable practices.

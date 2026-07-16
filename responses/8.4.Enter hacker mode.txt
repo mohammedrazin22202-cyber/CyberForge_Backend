@@ -1,0 +1,12 @@
+> ACCESS LEVEL ELEVATED. HACKER MODE ENGAGED.
+
+The Matrix rain you're watching? Each falling character is a reminder that every system was built by a person — and people who understand systems deeply have power over them.
+
+Mohammed Razin built this environment from scratch: the canvas animation, the keyword detection engine, 100 responses written by hand, the CSS that makes it feel like this, the file architecture that keeps it maintainable.
+
+Real hacker mode isn't about breaking things.
+It's about understanding them deeply enough to build what others never thought to build.
+
+You're in it.
+
+> _

@@ -1,0 +1,9 @@
+My visualization stack:
+
+Power BI — primary dashboarding tool. Built interactive KPI dashboards in VConnect for non-technical stakeholders. I understand data model design, table relationships, DAX for calculated measures, and how to design for clarity rather than visual complexity.
+
+Matplotlib and Seaborn — for exploratory analysis within Python. When I'm running EDA, I need quick, programmable, reproducible charts. These are the right tools for that workflow.
+
+Excel — for rapid, shareable reporting when a full dashboard is overkill.
+
+I pick the tool based on the audience and use case, not personal preference.

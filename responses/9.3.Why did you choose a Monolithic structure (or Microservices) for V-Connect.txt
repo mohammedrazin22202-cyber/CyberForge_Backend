@@ -1,0 +1,7 @@
+I built VConnect as a Modular Monolith. 
+
+In a FAANG environment, microservices are the standard, but for the initial rollout, a monolith allowed high development velocity. 
+
+However, the boundaries are strictly defined. If the 'Cost Estimator' module ever needs to scale independently, it’s designed to be extracted into a microservice without refactoring the core. 
+
+My CA background makes me prioritize ROI—starting with a monolith minimizes infrastructure overhead while leaving the architectural path open for distributed scaling.

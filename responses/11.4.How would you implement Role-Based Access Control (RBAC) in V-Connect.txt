@@ -1,0 +1,9 @@
+I implement RBAC by defining clear permission matrices. 
+
+For V-Connect, village officials have different access levels than residents. 
+
+I use a 'Least Privilege' model, ensuring users only have access to the data necessary for their role. 
+
+This is managed through identity providers and middleware that validates the user's role on every API call. 
+
+It’s a digital version of internal controls in accounting—ensuring that only authorized individuals can modify critical records.

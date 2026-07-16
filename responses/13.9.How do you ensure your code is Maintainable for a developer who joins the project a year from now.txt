@@ -1,0 +1,9 @@
+I ensure maintainability through clean code standards, modular design, and thorough documentation. 
+
+I write code that is self-documenting through clear naming and logical structure. 
+
+I view my code as a legacy—it must be clear enough for a stranger to pick up and evolve. 
+
+This involves keeping technical debt low and following established patterns. 
+
+At a FAANG scale, maintainability is the difference between a system that scales and one that collapses under its own weight as the team grows.

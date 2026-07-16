@@ -1,0 +1,7 @@
+VConnect solves the problem of unstructured, inconsistent, large-scale data being unusable for decision-making.
+
+When you have 650,000+ records coming from distributed sources, the data is messy — missing values, format inconsistencies, duplicates, outliers. Before VConnect, that data was essentially dead weight. Nobody could act on it because nobody could trust it.
+
+I built pipelines to clean it, validate it, structure it, and make it queryable. Then I built dashboards so that the insights were visible to stakeholders who don't write Python.
+
+The result: 41% improvement in processing efficiency, and data that could finally drive real decisions. That's the problem it solves.

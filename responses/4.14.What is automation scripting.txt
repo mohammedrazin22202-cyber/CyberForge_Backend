@@ -1,0 +1,7 @@
+Automation scripting is writing code that does repetitive work so humans don't have to — consistently, reliably, and at speed.
+
+In my world: the data pipelines I built for VConnect are automation scripts. You run them, and they handle ingestion, cleaning, validation, and output — every time, without manual steps.
+
+Beyond data: automation scripts handle file operations, scheduled reporting, batch processing, web scraping, and a thousand other tasks that eat time when done manually.
+
+The principle: if you're doing something manually more than twice, script it. Time is the most finite resource in engineering.

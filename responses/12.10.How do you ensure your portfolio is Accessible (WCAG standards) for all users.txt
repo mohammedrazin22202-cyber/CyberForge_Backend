@@ -1,0 +1,7 @@
+I ensure accessibility by using semantic HTML, ARIA labels, and maintaining high color contrast. 
+
+I test with screen readers to ensure all interactive elements are keyboard-friendly. 
+
+I view accessibility as 'Design Integrity'—ensuring that the digital world I build is open to everyone, regardless of their physical abilities. 
+
+At a FAANG scale, inclusivity isn't just an ethical choice; it's a fundamental requirement for any product meant to serve a global, diverse audience.

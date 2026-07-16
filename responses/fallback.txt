@@ -1,0 +1,17 @@
+>> QUERY UNRESOLVED - No confident pathway matched your input.
+
+I can understand natural wording now, but I still only answer from the CyberForge knowledge base.
+
+Try one of these:
+
+[ IDENTITY ]   who are you | tell me about yourself | what do you do
+[ PROJECTS ]   vconnect | logisense | show projects | best project
+[ SKILLS ]     skills | tech stack | python | what technologies do you know
+[ DATA ]       data science | machine learning | pandas | power bi | eda
+[ HIRING ]     why should we hire you | strengths | what makes you different
+[ CAREER ]     are you looking for a job | internship | freelance | career goal
+[ AI & SEC ]   cyberforge ai | ethical hacking | prompt engineering | encryption
+[ LINKS ]      github | linkedin | resume | portfolio | contact information
+[ PERSONAL ]   what inspires you | what motivates you | day or night coder
+
+>> Tip: Try a short phrase like "show projects" or a natural question like "can I see your resume?"

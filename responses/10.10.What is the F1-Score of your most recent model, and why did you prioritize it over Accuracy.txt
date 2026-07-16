@@ -1,0 +1,7 @@
+I prioritize the F1-Score because accuracy is misleading when classes are imbalanced. 
+
+In village welfare, missing a 'high-risk' case is much worse than a false alarm. 
+
+The F1-Score is the harmonic mean of Precision and Recall; it forces the model to perform well on both. 
+
+I view this like a balance sheet—you can't just look at total assets (accuracy); you have to balance the liabilities (missed detections) to get the true picture of performance.

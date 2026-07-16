@@ -1,0 +1,9 @@
+Security is a foundation. 
+
+All traffic across my projects is strictly enforced via TLS 1.3. 
+
+I use HSTS headers to ensure browsers never connect over an unencrypted link. 
+
+This creates an encrypted tunnel, making intercepted data useless to an attacker. 
+
+Coming from a finance-heavy background, I treat every packet like a bank transaction—if it's moving, it must be shielded by industry-standard cryptographic protocols to ensure absolute privacy and integrity.

@@ -1,0 +1,7 @@
+Yes — but my sweet spot is where data meets development.
+
+I write Python professionally. I've built data pipelines, automation scripts, dashboards, web applications, and the chatbot you're talking to right now. So yes, developer fits.
+
+What makes me different from a pure software developer is that I also think like a data analyst. I care about what the data is saying, not just whether the code runs. I care about accuracy, not just output.
+
+If you need someone who can build the pipeline AND interpret the insights it produces — that's exactly where I sit.

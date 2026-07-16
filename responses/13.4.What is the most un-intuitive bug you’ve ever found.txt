@@ -1,0 +1,7 @@
+I once chased a 'ghost bug' that only appeared when a specific background task coincided with a database update—a classic race condition. 
+
+It was un-intuitive because the logs showed everything was 'fine,' yet the data was wrong. 
+
+It taught me that system behavior isn't just about the lines of code you see, but the timing between them. 
+
+It made me a much more meticulous debugger, looking for the 'hidden logic' of the system environment, not just the syntax.

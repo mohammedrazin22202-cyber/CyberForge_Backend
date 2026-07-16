@@ -1,0 +1,7 @@
+The ones I can back up with evidence:
+
+Python for data — Pandas and NumPy at production scale. Not theoretical.
+Problem-solving under pressure — 2x hackathon wins, 1750+ LeetCode at 90%.
+End-to-end ownership — I don't build half-projects. Everything I list is shipped and complete.
+Business context — my commerce background means I understand what the data needs to do for the organization, not just whether the code runs.
+Honest self-assessment — I know what I'm good at and what I'm still building. That's how you actually improve.

@@ -1,0 +1,7 @@
+I chose Tailwind CSS for its utility-first approach. 
+
+It significantly speeds up design while keeping the bundle size small through its purge feature, which removes unused styles. 
+
+This minimizes the CSS 'payload' the browser has to download and parse, leading to faster First Contentful Paint. 
+
+I view design as an extension of engineering—it must be fast, responsive, and maintainable without bloating the overall system footprint.

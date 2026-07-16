@@ -1,0 +1,7 @@
+I approach scaling from a "Stateless" perspective to ensure the system never becomes a bottleneck during a crisis. 
+
+To handle a 100k user surge on the Village Dashboard, I wouldn’t just throw more hardware at it—that’s a high-cost, low-efficiency fix. Instead, I’d implement Horizontal Pod Autoscaling (HPA) in a containerized environment and offload all static assets to a CDN at the edge. 
+
+By decoupling the frontend from the logic layer and ensuring the session data is stored in an external cache like Redis, the system remains resilient even when the hit rate spikes. 
+
+This ensures that village officials never experience a lockout during a critical information surge, maintaining 99.9% availability when it matters most.

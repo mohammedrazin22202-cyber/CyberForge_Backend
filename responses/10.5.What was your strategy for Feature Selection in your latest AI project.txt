@@ -1,0 +1,7 @@
+I use Recursive Feature Elimination and Lasso Regularization to strip away noise. 
+
+The goal is to find the minimum set of features that provide the maximum predictive signal. 
+
+I also lean on domain knowledge—my CA background helps me identify which financial indicators are logically relevant before I let the algorithm rank them. 
+
+This results in a leaner, more interpretable model that is faster to train and less prone to overfitting on irrelevant data.

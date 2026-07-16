@@ -1,0 +1,9 @@
+LogiSense was built with:
+
+Backend/Processing: Python — Pandas for data manipulation, NumPy for numerical operations
+Database: MySQL for structured storage with optimized queries
+Visualization: Power BI for the dashboard layer
+Version Control: Git throughout development
+Environment: Jupyter Notebook for prototyping, refactored to clean Python scripts for production
+
+The same stack I'd bring to a data engineering role. Not chosen for the resume — chosen because it's the right tool for each layer.

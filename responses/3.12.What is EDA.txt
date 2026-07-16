@@ -1,0 +1,7 @@
+EDA — Exploratory Data Analysis — is the phase where you get to know your data before you try to model or report from it.
+
+It's asking questions: What's the distribution of this column? Are there outliers? What correlates with what? Are there patterns by time, category, or region that aren't obvious from the raw table?
+
+I use Pandas for statistical summaries and Matplotlib/Seaborn for visual exploration. In VConnect, EDA was how I identified the trends and patterns that drove the dashboard design — the KPIs we tracked were informed by what the data actually showed, not what we assumed it would show.
+
+EDA isn't a step you skip. It's how you avoid building the wrong analysis.

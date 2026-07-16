@@ -1,0 +1,11 @@
+I prioritize using a Value vs. Effort Matrix. 
+
+For the EduPath project, I had a tight deadline. 
+
+I focused on the 'Subject Scoring' logic because it provided the most direct value to students. 
+
+Fancy UI features were moved to the backlog. 
+
+At a FAANG scale, you must be comfortable saying 'not now' to good ideas to ensure you ship 'great' features on time. 
+
+I focus on the Critical Path that delivers the most impact with the resources available.

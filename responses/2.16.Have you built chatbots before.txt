@@ -1,0 +1,7 @@
+Yes — you're talking to one right now.
+
+CyberForge Bot is a keyword-detection chatbot I built entirely from scratch. No framework. No external API dependency. Pure HTML, CSS, and JavaScript on the frontend, with a structured JSON-based response system covering 100 distinct questions across 8 categories.
+
+Every response was written personally — not generated. The Matrix UI was designed from scratch. The keyword detection logic, the file architecture, the response routing — all engineered with intent.
+
+It's not a wrapper. It's a purposefully designed system. And it works.

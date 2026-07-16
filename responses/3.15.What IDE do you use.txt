@@ -1,0 +1,7 @@
+Jupyter Notebook for exploratory and analytical work — it's the right tool when you want outputs inline, want to iterate quickly, and want to document reasoning alongside code.
+
+VS Code for production scripts and structured projects. Clean, fast, excellent Python tooling, and solid Git integration.
+
+Terminal for everything in between — running scripts, managing environments, working with Docker, navigating file systems.
+
+Short answer: Jupyter for exploration, VS Code for production, terminal for operations.

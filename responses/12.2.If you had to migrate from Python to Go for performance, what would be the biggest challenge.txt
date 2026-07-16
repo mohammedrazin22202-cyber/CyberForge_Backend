@@ -1,0 +1,7 @@
+The biggest challenge would be the shift from Python’s dynamic typing to Go’s strict static typing and its explicit concurrency model (goroutines). 
+
+While Go offers much better runtime performance, it requires more upfront architectural planning. 
+
+I view this as a trade-off between 'development speed' and 'execution efficiency'. 
+
+For high-scale services, the performance gains of Go often justify the increased complexity, but it requires a disciplined mindset during the migration phase.

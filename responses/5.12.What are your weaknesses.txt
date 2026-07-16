@@ -1,0 +1,7 @@
+I'll be direct rather than give you a disguised strength.
+
+ML depth: real but still growing. I understand fundamentals and have coursework behind me, but I haven't shipped a full ML model to production yet. That's the gap I'm actively closing right now.
+
+Tableau: I work in Power BI, not Tableau. I could learn it quickly given my BI foundation, but I'd rather acknowledge the gap than pretend it isn't there.
+
+Large team codebases: most of my project work has been solo or small-team. Navigating a large engineering organization is something I'll develop on the job.

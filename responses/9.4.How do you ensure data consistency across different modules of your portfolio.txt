@@ -1,0 +1,5 @@
+I prioritize Eventual Consistency for non-critical UI updates but strictly enforce ACID compliance for core records. 
+
+Using distributed transactions or a Two-Phase Commit (2PC) for critical path operations ensures the database remains the 'Single Source of Truth'. 
+
+I view data integrity as a financial audit: every state change must be traceable and consistent across the entire ecosystem to prevent 'phantom data' or synchronization errors between the dashboard and the reporting tools.

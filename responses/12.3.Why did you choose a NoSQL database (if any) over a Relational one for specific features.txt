@@ -1,0 +1,7 @@
+I choose NoSQL for unstructured data or when horizontal scalability is the priority. 
+
+For specific LogiSense tracking logs, NoSQL's schema flexibility allows us to ingest high-velocity data without the overhead of complex SQL joins. 
+
+However, for relational village data, I stick to SQL for its ACID guarantees. 
+
+I look at this through the lens of 'Right Tool for the Job'—matching the database structure to the specific data-access patterns of the feature.

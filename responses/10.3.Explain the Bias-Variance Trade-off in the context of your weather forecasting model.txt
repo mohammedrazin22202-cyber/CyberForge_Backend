@@ -1,0 +1,9 @@
+High variance leads to overfitting on local anomalies. 
+
+I manage this using Cross-Validation and Early Stopping. 
+
+If training loss drops while validation loss plateaus, I know I'm hitting the variance wall. 
+
+I then apply Regularization to simplify the model, ensuring it generalizes well to unseen seasonal shifts. 
+
+It’s a balancing act: a model too simple (high bias) misses trends, while one too complex (high variance) mistakes noise for data.
