@@ -1,0 +1,31 @@
+>> CYBERFORGE SYSTEM COMMANDS MENU
+>> [STATUS: ONLINE] [AUTHENTICATION LEVEL: OPERATOR]
+
+You can query the chatbot naturally or use these explicit system command triggers:
+
+1. [ Scan System ]
+   - Triggers a diagnostic scan of the CyberForge subroutines.
+   - Try: "run system scan", "scan system"
+
+2. [ Hacker Mode ]
+   - Boots up the green matrix-themed hacker simulation terminal.
+   - Try: "enter hacker mode", "hacker mode"
+
+3. [ Initialize CyberForge ]
+   - Triggers the system re-initialization protocol.
+   - Try: "initialize cyberforge", "reboot system"
+
+4. [ Activate AI Mode ]
+   - Shifts the terminal interface into cognitive neural matching mode.
+   - Try: "activate ai mode"
+
+5. [ Reveal Hidden Project ]
+   - Decrypts and shows classified project files.
+   - Try: "reveal hidden project"
+
+6. [ Wake Up AI ]
+   - Sends a wake-up signal to the inactive neural model.
+   - Try: "wake up cyberforge ai"
+
+>> To export chat logs at any time, click the Download (arrow) icon in the top header.
+>> To clear the conversation terminal, click the Trash icon in the top header.

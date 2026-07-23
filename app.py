@@ -823,6 +823,7 @@ CATEGORY_LABELS = {
 }
 
 INTENT_RULES = [
+    (re.compile(r'^/help$|^/commands$|^\?+$|\b(help|commands|subroutines)\b'), '8.8.Help and Commands.txt', 'help intent'),
     (re.compile(r'\b(resume|cv)\b'), '6.4.Download resume.txt', 'resume action'),
     (re.compile(r'\b(github|source code|code repository|repo)\b'), '6.2.Open GitHub.txt', 'github action'),
     (re.compile(r'\b(linkedin)\b'), '6.3.Open LinkedIn.txt', 'linkedin action'),
