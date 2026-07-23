@@ -134,7 +134,6 @@ TOKEN_SYNONYMS = {
     'internship': 'job',
     # learning
     'studying': 'learning',
-    'studying': 'learning',
     'learning': 'learning',
     'learned': 'learning',
     'study': 'learning',
