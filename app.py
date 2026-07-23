@@ -1117,7 +1117,7 @@ def resolve_response_path(file_name: str) -> str | None:
 
     candidates = [
         safe_name,
-        safe_name + '.txt' if not safe_name.endswith('.txt') else safe_name + '.txt',
+        safe_name if safe_name.endswith('.txt') else safe_name + '.txt',
         safe_name.replace('\u2019', '#U2019'),
         safe_name.replace("'", '#U2019'),
     ]
