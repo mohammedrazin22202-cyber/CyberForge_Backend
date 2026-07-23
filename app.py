@@ -1245,6 +1245,9 @@ RESPONSE_VARIANTS: dict[str, list[str]] = {
         "I'm Mohammed Razin H — Data Analyst and developer, Chennai-based.",
         "Name's Mohammed Razin H. I build data systems and I ship real products.",
         "Mohammed Razin H. MCA graduate, data analyst, builder — in that order.",
+        "I'm Mohammed Razin H — a Data Analyst and developer based in Chennai.",
+        "Name's Mohammed Razin H. I analyse data, build systems, and ship real products.",
+        "Mohammed Razin H — MCA graduate, data analyst, developer. Chennai-based.",
     ],
     '1.3.Tell me about yourself.txt': [
         "Sure — I'll keep it honest and specific.",
@@ -1270,11 +1273,6 @@ RESPONSE_VARIANTS: dict[str, list[str]] = {
         "Because I don't just know the tools — I've used them on real problems at real scale.",
         "Let me give you the evidence instead of the pitch.",
         "Most candidates can list tools. I can show you outcomes.",
-    ],
-    '1.1.Who are you.txt': [
-        "I'm Mohammed Razin H — a Data Analyst and developer based in Chennai.",
-        "Name's Mohammed Razin H. I analyse data, build systems, and ship real products.",
-        "Mohammed Razin H — MCA graduate, data analyst, developer. Chennai-based.",
     ],
     '7.6.Greetings User.txt': [
         ">> CYBERFORGE AI — ONLINE. Welcome, Operator. 👋",
