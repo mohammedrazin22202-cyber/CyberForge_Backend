@@ -1,13 +1,13 @@
-Entry-level by title. More capable than that in practice.
+Entry-level by title, but with proven professional and project experience.
 
-MCA Graduate (Completed 2026).
+Data Analyst & Python Developer (completed MCA in 2026).
 
 Hands-on experience:
-→ Data pipeline engineering at 650K+ record scale
-→ 41% processing efficiency improvement through optimization
-→ Power BI dashboards used by actual stakeholders
-→ 2x hackathon winner (Measi Institute + MGR University)
-→ 1750+ LeetCode problems at 90% acceptance rate
+→ Worked as Data Analyst & Python Developer at Al Haseena Exports, building the LogiSense 360 predictive analytics platform
+→ Built data pipeline & analytics solutions at 650K+ record scale, reducing manual effort by 70%
+→ Integrated regression/classification models and live dashboards for operations
+→ 2x hackathon winner (1st Place at MEASI IIT, 2nd Place at MGR University)
+→ 1,750+ LeetCode problems solved
 → 3 professional data certifications
 
-I don't have years of job titles. What I have is demonstrated output and a proven ability to learn fast and deliver. That's the more relevant signal.
+I bring demonstrated output, strong problem-solving skills, and a proven ability to deliver real business value.

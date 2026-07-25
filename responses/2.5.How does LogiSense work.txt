@@ -1,12 +1,10 @@
-LogiSense operates in three clean layers:
+LogiSense 360 operates in three cohesive layers:
 
-1. DATA INGESTION
-Pulls in logistics data from relevant sources, normalizes inconsistent formats, and loads it into a structured database.
+1. DATA LAYER (SQLite & MongoDB)
+Stores historical logistics data and logs shipment events, allowing flexible schema design for rapid, high-velocity ingestion.
 
-2. PROCESSING
-Python handles the transformation logic — calculating KPIs, flagging anomalies, aggregating by route, region, or time window. Pandas for the heavy lifting, NumPy for numerical operations.
+2. PREDICTIVE ENGINE (Python, Flask, Scikit-learn)
+Applies regression and classification models to forecast delivery delays and detect spoilage/operational risks in real time.
 
-3. VISUALIZATION
-Processed data feeds into a Power BI dashboard where stakeholders can track performance, filter by dimension, and catch issues before they escalate.
-
-Each layer is independent. You can swap the visualization layer without touching the pipeline. That modularity was a deliberate design decision.
+3. DASHBOARD & ALERTS
+Generates intelligent alerts for early exception handling and hosts custom KPI reporting interfaces for admins, drivers, and customers.

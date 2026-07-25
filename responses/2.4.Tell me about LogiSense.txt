@@ -1,7 +1,5 @@
-LogiSense is a logistics intelligence system I built to bring real-time visibility to supply chain data.
+LogiSense 360 is a predictive logistics analytics platform I developed during my experience at Al Haseena Exports Pvt. Ltd.
 
-The problem it addresses: logistics operations generate enormous amounts of data — shipments, routes, delays, inventory levels — but that data often sits in silos. Decisions get made on yesterday's spreadsheet.
+The platform automates shipment monitoring, forecasts delivery delays, and identifies spoilage risks to improve operational decision-making.
 
-LogiSense aggregates that data, processes it through a Python pipeline, and surfaces the key metrics in a dashboard so that decisions can be made in real time, not retrospectively.
-
-Same principle as VConnect — raw data is useless until you engineer it into something people can actually act on.
+It integrates machine learning classification and regression models built using Scikit-learn with operational datasets, storing data in SQLite and MongoDB, and serving predictions through a Flask application with live KPI dashboards.
