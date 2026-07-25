@@ -551,15 +551,16 @@ ACTION_MAP = {
         {'label': 'Open GitHub', 'url': 'https://github.com/mohammedrazin22202-cyber', 'external': True},
     ],
     '6.3.Open LinkedIn.txt': [
-        {'label': 'Open LinkedIn', 'url': 'https://www.linkedin.com/in/razinn88307', 'external': True},
+        {'label': 'Open LinkedIn', 'url': 'https://www.linkedin.com/in/razin88307', 'external': True},
     ],
     '6.4.Download resume.txt': [
-        {'label': 'Download Resume', 'url': '/My_Resume.pdf', 'download': 'Mohammed_Razin_H_Resume.pdf'},
+        {'label': 'Data Analyst Resume', 'url': '/My_Resume.pdf', 'download': 'Mohammed_Razin_Data_Analyst.pdf'},
+        {'label': 'Data Scientist Resume', 'url': '/My_Resume_Data_Scientist.pdf', 'download': 'Mohammed_Razin_Data_Scientist.pdf'},
     ],
     '6.5.Contact information.txt': [
         {'label': 'Email', 'url': 'mailto:mohammedrazin22202@gmail.com?subject=Reaching%20out%20from%20your%20Portfolio'},
         {'label': 'Call', 'url': 'tel:+919342234674'},
-        {'label': 'LinkedIn', 'url': 'https://www.linkedin.com/in/razinn88307', 'external': True},
+        {'label': 'LinkedIn', 'url': 'https://www.linkedin.com/in/razin88307', 'external': True},
     ],
     '6.6.Show certifications.txt': [
         {'label': 'View Certifications', 'url': '/#achievements'},
