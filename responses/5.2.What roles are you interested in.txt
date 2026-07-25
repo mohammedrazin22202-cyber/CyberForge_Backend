@@ -1,9 +1,9 @@
 Primary targets:
 
+Data Scientist (Entry-Level) — applying machine learning models, predictive modeling (Scikit-learn), statistical analysis, and Python to forecast trends and solve business problems.
+
 Data Analyst — my core skill set. Python, SQL, R, EDA, Power BI, data pipelines. This is where I have the most depth and the most demonstrated output.
 
-Data Engineer (junior) — building and optimizing data pipelines is work I've done. The infrastructure side interests me as a natural growth direction.
-
-Business Intelligence Analyst — Power BI dashboards, KPI design, translating data into decisions for non-technical stakeholders. Done this in VConnect.
+Data Engineer (junior) / BI Analyst — building and optimizing data pipelines, database management (MySQL, SQLite, MongoDB), and Power BI dashboards.
 
 I know where I'm strong. I'm targeting roles that use those strengths. Generalist curiosity, specialist execution.

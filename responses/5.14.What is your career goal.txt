@@ -1,4 +1,4 @@
-The trajectory: Data Analyst → Data Engineer → building AI-powered data systems.
+The trajectory: Data Analyst / Scientist → Data Engineer → building AI-powered data systems.
 
 Short term: a role where I work with real data at scale, deepen my SQL and Python in a professional environment, and learn how production data infrastructure is built and maintained.
 

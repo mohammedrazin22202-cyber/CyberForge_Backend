@@ -8,10 +8,10 @@
 [SCAN] Power BI dashboards ............. ✅ ACTIVE
 [SCAN] SQL engine ..................... ✅ CONNECTED
 [SCAN] LeetCode module ................ ✅ 1750+ problems | 90% acceptance
-[SCAN] Hackathon record ............... ✅ 2x 2nd Prize
+[SCAN] Hackathon record ............... ✅ 1st Place (MEASI IIT) & 2nd Place (MGR)
 [SCAN] Certifications ................. ✅ 3 verified
-[SCAN] Career mode .................... ✅ SEEKING DATA ANALYST ROLE
-[SCAN] Response matrix ................ ✅ 100 responses loaded
+[SCAN] Career mode .................... ✅ SEEKING DATA SCIENTIST / ANALYST ROLE
+[SCAN] Response matrix ................ ✅ 150+ responses loaded
 [SCAN] Matrix rain animation ........... ✅ RENDERING
 
 SCAN COMPLETE. Zero anomalies detected.

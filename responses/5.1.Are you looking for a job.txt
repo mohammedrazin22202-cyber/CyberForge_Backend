@@ -1,6 +1,6 @@
 Yes — actively.
 
-I recently completed my MCA from Measi Institute of Information Technology, and I'm looking for an entry-level Data Analyst role where I can bring my Python, SQL, and Power BI skills to real business problems.
+I recently completed my MCA from Measi Institute of Information Technology, and I'm looking for an entry-level Data Scientist or Data Analyst role where I can bring my machine learning, Python, SQL, and Power BI skills to real business problems.
 
 Demonstrated output: built analytics solutions processing over 650K+ records, reduced manual reporting and preprocessing effort by 70%, Power BI dashboards in use by actual stakeholders, 2x hackathon winner, 1750+ LeetCode problems solved.
 
