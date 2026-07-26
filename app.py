@@ -554,8 +554,7 @@ ACTION_MAP = {
         {'label': 'Open LinkedIn', 'url': 'https://www.linkedin.com/in/razin88307', 'external': True},
     ],
     '6.4.Download resume.txt': [
-        {'label': 'Data Analyst Resume', 'url': '/My_Resume.pdf', 'download': 'Mohammed_Razin_Data_Analyst.pdf'},
-        {'label': 'Data Scientist Resume', 'url': '/My_Resume_Data_Scientist.pdf', 'download': 'Mohammed_Razin_Data_Scientist.pdf'},
+        {'label': 'Download Resume', 'url': '/My_Resume.pdf', 'download': 'Mohammed_Razin_Data_Analyst.pdf'},
     ],
     '6.5.Contact information.txt': [
         {'label': 'Email', 'url': 'mailto:mohammedrazin22202@gmail.com?subject=Reaching%20out%20from%20your%20Portfolio'},
