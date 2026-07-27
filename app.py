@@ -641,6 +641,13 @@ def prepare_dataset() -> None:
             norm: sum(token_weight(t) for t in tokens)
             for _, norm, tokens in entry['_key_sentences']
         }
+    
+    # Precompute total IDF weight sum for keywords
+    for entry in DATASET:
+        entry['_keyword_weights'] = {
+            norm: sum(token_weight(t) for t in tokens)
+            for _, norm, tokens in entry['_keywords']
+        }
 
 
 prepare_dataset()
