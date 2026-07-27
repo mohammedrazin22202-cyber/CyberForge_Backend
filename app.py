@@ -822,6 +822,16 @@ threading.Thread(target=_purge_old_sessions, daemon=True).start()
 # Session reset command phrases
 RESET_COMMANDS = {'reset', 'clear', 'restart', 'clear chat', 'reset chat', '/reset', '/clear'}
 
+# Safety filters to block offensive queries
+SAFETY_BLOCKLIST = {
+    'abuse', 'asshole', 'bitch', 'bastard', 'fuck', 'nigger', 'cunt', 'retard',
+    'motherfucker', 'dickhead', 'pussy', 'whore', 'slut', 'idiot', 'moron', 'fucker'
+}
+
+def contains_offensive_content(text: str) -> bool:
+    tokens = normalize_text(text).split()
+    return any(tok in SAFETY_BLOCKLIST for tok in tokens)
+
 def is_reset_command(text: str) -> bool:
     normalized = text.lower().strip()
     return normalized in RESET_COMMANDS
