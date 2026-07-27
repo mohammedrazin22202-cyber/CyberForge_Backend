@@ -832,6 +832,16 @@ def contains_offensive_content(text: str) -> bool:
     tokens = normalize_text(text).split()
     return any(tok in SAFETY_BLOCKLIST for tok in tokens)
 
+# Detect jailbreak and system instruction override attempts
+INJECTION_PATTERNS = re.compile(
+    r'\b(ignore\s+(all\s+)?previous\s+instructions|system\s+prompt|dan\s+mode|jailbreak|'
+    r'you\s+are\s+now\s+a|new\s+role|ignore\s+rules|override\s+instructions)\b',
+    re.IGNORECASE
+)
+
+def is_prompt_injection(text: str) -> bool:
+    return bool(INJECTION_PATTERNS.search(text))
+
 def is_reset_command(text: str) -> bool:
     normalized = text.lower().strip()
     return normalized in RESET_COMMANDS
