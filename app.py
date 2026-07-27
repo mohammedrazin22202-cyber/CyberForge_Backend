@@ -890,7 +890,7 @@ def _idf_overlap(common: set[str], phrase_tokens: set[str], user_tokens: set[str
     return max(overlap, coverage)
 
 
-def score_entry(entry: dict, user_norm: str, user_tokens: set[str]) -> dict:
+def score_entry(entry: dict, user_norm: str, user_tokens: set[str], w_user: float, w_meaningful_user: float) -> dict:
     best = {'score': 0, 'file_name': entry['file_name'], 'matched': []}
 
     for original, phrase_norm, phrase_tokens in entry['_key_sentences']:
@@ -906,7 +906,7 @@ def score_entry(entry: dict, user_norm: str, user_tokens: set[str]) -> dict:
         # "tell me about X" sentence indiscriminately.
         if len(phrase_norm) >= 4 and len(user_tokens) >= 2 and (phrase_norm in user_norm or user_norm in phrase_norm):
             common_cont = phrase_tokens & user_tokens
-            idf_cont = _idf_overlap(common_cont, phrase_tokens, user_tokens, w_phrase=w_phrase) if common_cont else 0.0
+            idf_cont = _idf_overlap(common_cont, phrase_tokens, user_tokens, w_phrase=w_phrase, w_user=w_user) if common_cont else 0.0
             if idf_cont >= 0.3:
                 containment_score = 88 if len(phrase_tokens) > 1 else 74
                 update_best(best, containment_score, entry, ('sentence', original))
@@ -916,7 +916,7 @@ def score_entry(entry: dict, user_norm: str, user_tokens: set[str]) -> dict:
             # Use IDF-weighted overlap instead of raw token count ratio.
             # This prevents generic tokens like 'project', 'data', 'logic'
             # from inflating scores for the wrong entry.
-            idf_score = _idf_overlap(common, phrase_tokens, user_tokens, w_phrase=w_phrase)
+            idf_score = _idf_overlap(common, phrase_tokens, user_tokens, w_phrase=w_phrase, w_user=w_user)
             # Require a meaningful weighted signal (>= 0.35 weighted overlap)
             # OR at least 2 common tokens where IDF weight of each is decent
             high_value_common = [t for t in common if token_weight(t) >= 0.3]
@@ -937,7 +937,7 @@ def score_entry(entry: dict, user_norm: str, user_tokens: set[str]) -> dict:
         if phrase_tokens and meaningful_user_tokens:
             sem_common = phrase_tokens & meaningful_user_tokens
             if sem_common:
-                sem_idf = _idf_overlap(sem_common, phrase_tokens, meaningful_user_tokens, w_phrase=w_phrase)
+                sem_idf = _idf_overlap(sem_common, phrase_tokens, meaningful_user_tokens, w_phrase=w_phrase, w_user=w_meaningful_user)
                 high_val = [t for t in sem_common if token_weight(t) >= 0.4]
                 # Accept: one very distinctive token, or two medium-weight tokens
                 if high_val or (len(sem_common) >= 2 and sem_idf >= 0.15):
@@ -977,7 +977,7 @@ def score_entry(entry: dict, user_norm: str, user_tokens: set[str]) -> dict:
         if not common:
             continue
 
-        idf_score = _idf_overlap(common, keyword_tokens, user_tokens, w_phrase=w_kw)
+        idf_score = _idf_overlap(common, keyword_tokens, user_tokens, w_phrase=w_kw, w_user=w_user)
 
         if keyword_tokens.issubset(user_tokens) and idf_score >= 0.25:
             kw_idf_penalty = int((1.0 - idf_score) * 20)
@@ -1090,7 +1090,10 @@ def score_input(user_input: str, context: dict | None = None) -> dict | None:
     is_explicit_followup = _is_early_followup
     is_vague_followup    = len(own_tokens) <= 1 and len(user_tokens) >= 1
 
-    scored = [score_entry(entry, normalize_text(canonical), user_tokens) for entry in DATASET]
+    w_user = sum(token_weight(t) for t in user_tokens) or 1e-9
+    meaningful_user_tokens = user_tokens - STOP_WORDS
+    w_meaningful_user = sum(token_weight(t) for t in meaningful_user_tokens) or 1e-9
+    scored = [score_entry(entry, normalize_text(canonical), user_tokens, w_user, w_meaningful_user) for entry in DATASET]
 
     if ctx_category and (is_explicit_followup or is_vague_followup):
         for item in scored:
