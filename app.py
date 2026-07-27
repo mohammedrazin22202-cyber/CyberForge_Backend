@@ -1557,6 +1557,19 @@ def chat():
             'actions': [],
         })
 
+    if is_prompt_injection(user_input):
+        return jsonify({
+            'response': (
+                ">> [SECURITY PROTOCOL: Direct override blocked]\n"
+                ">> System integrity secure. I only respond to professional questions about Mohammed Razin."
+            ),
+            'score': 0,
+            'confidence': 0,
+            'file': None,
+            'matched': [('safety', 'injection_blocked')],
+            'actions': [],
+        })
+
     if is_reset_command(user_input):
         if session_id:
             with _SESSIONS_LOCK:
