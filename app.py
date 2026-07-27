@@ -1053,6 +1053,14 @@ def score_input(user_input: str, context: dict | None = None) -> dict | None:
     if not user_norm:
         return None
 
+    # Handle explicit system status or help commands bypassing matching engines
+    if user_norm in ('help', 'info', '/help', '/info', '/commands'):
+        return {
+            'file_name': '8.8.Help and Commands.txt',
+            'score': 100,
+            'matched': [('command', 'help')],
+        }
+
     # 1. Exact sentence match (original input)
     exact = exact_sentence_match(user_norm)
     if exact:
