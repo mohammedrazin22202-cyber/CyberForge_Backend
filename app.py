@@ -819,6 +819,13 @@ def _purge_old_sessions() -> None:
 
 threading.Thread(target=_purge_old_sessions, daemon=True).start()
 
+# Session reset command phrases
+RESET_COMMANDS = {'reset', 'clear', 'restart', 'clear chat', 'reset chat', '/reset', '/clear'}
+
+def is_reset_command(text: str) -> bool:
+    normalized = text.lower().strip()
+    return normalized in RESET_COMMANDS
+
 # Pronoun / vague follow-up words that signal the user is referring back to
 # the previous topic rather than starting a fresh query.
 CONTEXT_PRONOUNS = {
