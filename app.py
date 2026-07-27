@@ -934,9 +934,12 @@ def score_entry(entry: dict, user_norm: str, user_tokens: set[str]) -> dict:
         # (≥0.92) so it only fires for near-identical strings with small edits,
         # and score it below the IDF token path so it can never beat a good
         # semantic match.
-        ratio = SequenceMatcher(None, user_norm, phrase_norm).ratio()
-        if ratio >= 0.92:
-            update_best(best, 48 + (ratio * 20), entry, ('typo fuzzy', original))
+        len_user = len(user_norm)
+        len_phrase = len(phrase_norm)
+        if len_user > 0 and len_phrase > 0 and (2.0 * min(len_user, len_phrase) / (len_user + len_phrase)) >= 0.92:
+            ratio = SequenceMatcher(None, user_norm, phrase_norm).ratio()
+            if ratio >= 0.92:
+                update_best(best, 48 + (ratio * 20), entry, ('typo fuzzy', original))
 
     for original, keyword_norm, keyword_tokens in entry['_keywords']:
         if keyword_norm == user_norm:
