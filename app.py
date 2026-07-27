@@ -604,13 +604,21 @@ def normalize_text(value: str) -> str:
     return RE_SPACES.sub(' ', text).strip()
 
 
+_CANONICAL_TOKEN_CACHE: dict[str, str] = {}
+
 def canonical_token(token: str) -> str:
+    if token in _CANONICAL_TOKEN_CACHE:
+        return _CANONICAL_TOKEN_CACHE[token]
+    
+    orig = token
     token = TOKEN_SYNONYMS.get(token, token)
     if len(token) > 4 and token.endswith('ies'):
         token = token[:-3] + 'y'
     elif len(token) > 3 and token.endswith('s') and not token.endswith('ss'):
         token = token[:-1]
-    return TOKEN_SYNONYMS.get(token, token)
+    res = TOKEN_SYNONYMS.get(token, token)
+    _CANONICAL_TOKEN_CACHE[orig] = res
+    return res
 
 
 def tokenize(value: str) -> list[str]:
