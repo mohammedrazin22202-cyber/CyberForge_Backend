@@ -634,6 +634,13 @@ def prepare_dataset() -> None:
         ]
     # Build IDF table after all entries are tokenised
     TOKEN_IDF = _build_token_idf()
+    
+    # Precompute total IDF weight sum for key sentences to avoid repeat token weighting
+    for entry in DATASET:
+        entry['_key_sentence_weights'] = {
+            norm: sum(token_weight(t) for t in tokens)
+            for _, norm, tokens in entry['_key_sentences']
+        }
 
 
 prepare_dataset()
