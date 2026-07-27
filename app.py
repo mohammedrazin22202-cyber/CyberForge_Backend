@@ -873,7 +873,7 @@ def update_best(best: dict, score: float, entry: dict, matched: tuple[str, str])
         })
 
 
-def _idf_overlap(common: set[str], phrase_tokens: set[str], user_tokens: set[str], w_phrase: float = None, w_user: float = None) -> float:
+def _idf_overlap(common: set[str], phrase_tokens: set[str], user_tokens: set[str], w_phrase: float, w_user: float = None) -> float:
     """
     Weighted overlap score using IDF.
     Instead of counting tokens equally, each token contributes its IDF weight.
@@ -884,7 +884,6 @@ def _idf_overlap(common: set[str], phrase_tokens: set[str], user_tokens: set[str
     if not common:
         return 0.0
     w_common   = sum(token_weight(t) for t in common)
-    w_phrase   = w_phrase if w_phrase is not None else (sum(token_weight(t) for t in phrase_tokens) or 1e-9)
     w_user     = w_user if w_user is not None else (sum(token_weight(t) for t in user_tokens) or 1e-9)
     overlap    = w_common / w_phrase          # how much of the phrase is covered
     coverage   = w_common / w_user            # how much of the user query is covered
