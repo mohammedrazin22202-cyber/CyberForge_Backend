@@ -1524,6 +1524,23 @@ def chat():
             'actions': [],
         })
 
+    if is_reset_command(user_input):
+        if session_id:
+            with _SESSIONS_LOCK:
+                if session_id in SESSIONS:
+                    del SESSIONS[session_id]
+        return jsonify({
+            'response': (
+                ">> Conversation history cleared.\n"
+                ">> CYBERFORGE terminal reset. Ready for next query."
+            ),
+            'score': 100,
+            'confidence': 100,
+            'file': 'reset_command',
+            'matched': [('command', 'reset')],
+            'actions': [{'label': 'System Status', 'url': '/status'}],
+        })
+
     # Load conversation context for this session (empty dict if new/expired)
     context = get_session(session_id)
 
