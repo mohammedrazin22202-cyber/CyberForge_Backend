@@ -12,6 +12,7 @@ Try one of these:
 [ CAREER ]     are you looking for a job | internship | freelance | career goal
 [ AI & SEC ]   cyberforge ai | ethical hacking | prompt engineering | encryption
 [ LINKS ]      github | linkedin | resume | portfolio | contact information
+[ COMMANDS ]   /reset (clear session) | /help (show help) | /info
 [ PERSONAL ]   what inspires you | what motivates you | day or night coder
 
 >> Tip: Try a short phrase like "show projects" or a natural question like "can I see your resume?"
