@@ -957,6 +957,7 @@ def score_entry(entry: dict, user_norm: str, user_tokens: set[str]) -> dict:
                 update_best(best, 48 + (ratio * 20), entry, ('typo fuzzy', original))
 
     for original, keyword_norm, keyword_tokens in entry['_keywords']:
+        w_kw = entry['_keyword_weights'].get(keyword_norm)
         if keyword_norm == user_norm:
             # Penalise exact keyword match proportionally to how common it is
             idf_penalty = int((1.0 - token_weight(keyword_norm)) * 20)
@@ -977,7 +978,7 @@ def score_entry(entry: dict, user_norm: str, user_tokens: set[str]) -> dict:
         if not common:
             continue
 
-        idf_score = _idf_overlap(common, keyword_tokens, user_tokens)
+        idf_score = _idf_overlap(common, keyword_tokens, user_tokens, w_phrase=w_kw)
 
         if keyword_tokens.issubset(user_tokens) and idf_score >= 0.25:
             kw_idf_penalty = int((1.0 - idf_score) * 20)
