@@ -1520,6 +1520,15 @@ def portfolio_assets(filename):
 @app.route('/chat', methods=['POST'])
 @limiter.limit('30 per minute')
 def chat():
+    if not request.is_json:
+        return jsonify({
+            'response': '>> ERROR: Request payload must be JSON with Content-Type application/json.',
+            'score': 0,
+            'confidence': 0,
+            'file': None,
+            'matched': [],
+            'actions': [],
+        }), 400
     data = request.get_json(silent=True) or {}
     user_input  = data.get('message', '').strip()
     session_id  = data.get('session_id', '').strip()   # frontend sends a UUID per page load
