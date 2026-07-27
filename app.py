@@ -582,18 +582,26 @@ ACTION_MAP = {
 }
 
 
+# Pre-compiled regular expressions for text normalization
+RE_NON_ALPHANUM = re.compile(r'[^a-zA-Z0-9]+')
+RE_SPACES = re.compile(r'\s+')
+RE_VCONNECT = re.compile(r'\bv\s+connect\b')
+RE_LOGISENSE = re.compile(r'\blogi\s+sense\b')
+RE_LINKEDIN = re.compile(r'\blinked\s+in\b')
+RE_GITHUB = re.compile(r'\bgit\s+hub\b')
+
 def normalize_text(value: str) -> str:
     text = unicodedata.normalize('NFKC', str(value or ''))
     text = text.replace('&', ' and ')
     text = text.replace('\u2018', "'").replace('\u2019', "'")
     text = text.replace('\u201c', '"').replace('\u201d', '"')
-    text = re.sub(r'[^a-zA-Z0-9]+', ' ', text.lower())
-    text = re.sub(r'\s+', ' ', text).strip()
-    text = re.sub(r'\bv\s+connect\b', 'vconnect', text)
-    text = re.sub(r'\blogi\s+sense\b', 'logisense', text)
-    text = re.sub(r'\blinked\s+in\b', 'linkedin', text)
-    text = re.sub(r'\bgit\s+hub\b', 'github', text)
-    return re.sub(r'\s+', ' ', text).strip()
+    text = RE_NON_ALPHANUM.sub(' ', text.lower())
+    text = RE_SPACES.sub(' ', text).strip()
+    text = RE_VCONNECT.sub('vconnect', text)
+    text = RE_LOGISENSE.sub('logisense', text)
+    text = RE_LINKEDIN.sub('linkedin', text)
+    text = RE_GITHUB.sub('github', text)
+    return RE_SPACES.sub(' ', text).strip()
 
 
 def canonical_token(token: str) -> str:
