@@ -1534,6 +1534,19 @@ def chat():
             'actions': [],
         })
 
+    if contains_offensive_content(user_input):
+        return jsonify({
+            'response': (
+                ">> [SYSTEM DETECTED: Inappropriate content]\n"
+                ">> I am programmed as a professional portfolio assistant. Please keep the conversation respectful."
+            ),
+            'score': 0,
+            'confidence': 0,
+            'file': None,
+            'matched': [('safety', 'blocklist')],
+            'actions': [],
+        })
+
     if is_reset_command(user_input):
         if session_id:
             with _SESSIONS_LOCK:
