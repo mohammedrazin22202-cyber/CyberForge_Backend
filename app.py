@@ -577,7 +577,7 @@ ACTION_MAP = {
         {'label': 'View Workflow', 'url': '/#workflow'},
     ],
     '2.4.Tell me about LogiSense.txt': [
-        {'label': 'Open LogiSense', 'url': 'https://logisense-rc4l.onrender.com/', 'external': True},
+        {'label': 'Open LogiSense', 'url': 'https://logisense360.vercel.app/', 'external': True},
     ],
 }
 
