@@ -954,7 +954,7 @@ def score_entry(entry: dict, user_norm: str, user_tokens: set[str], w_user: floa
                     update_best(best, containment_score, entry, ('sentence', original))
 
         common = phrase_tokens & user_tokens
-        if phrase_tokens and common:
+        if phrase_tokens and common and (common - STOP_WORDS):
             # Use IDF-weighted overlap instead of raw token count ratio.
             # This prevents generic tokens like 'project', 'data', 'logic'
             # from inflating scores for the wrong entry.
