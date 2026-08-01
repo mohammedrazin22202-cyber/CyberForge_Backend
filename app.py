@@ -731,12 +731,14 @@ def build_suggestions() -> list[str]:
     TOP_PER_ENTRY = 3
     for entry in DATASET:
         candidates = []
+        entry_seen = set()  # prevent duplicates within the same entry
         for sentence in entry.get('key_sentences', []):
             if is_junk(sentence):
                 continue
             norm = normalize_text(sentence)
-            if not norm or norm in seen_norms or len(norm) <= 2:
+            if not norm or norm in seen_norms or norm in entry_seen or len(norm) <= 2:
                 continue
+            entry_seen.add(norm)
             candidates.append((idf_score(sentence), sentence, norm))
 
         # Sort best-first, take top N
