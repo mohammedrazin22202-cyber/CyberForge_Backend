@@ -1016,7 +1016,7 @@ def score_entry(entry: dict, user_norm: str, user_tokens: set[str], w_user: floa
                 continue
 
         common = keyword_tokens & user_tokens
-        if not common:
+        if not common or not (common - STOP_WORDS):
             continue
 
         idf_score = _idf_overlap(common, keyword_tokens, user_tokens, w_phrase=w_kw, w_user=w_user)
