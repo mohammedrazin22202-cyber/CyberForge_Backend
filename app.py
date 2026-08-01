@@ -947,10 +947,11 @@ def score_entry(entry: dict, user_norm: str, user_tokens: set[str], w_user: floa
         # "tell me about X" sentence indiscriminately.
         if len(phrase_norm) >= 4 and len(user_tokens) >= 2 and (phrase_norm in user_norm or user_norm in phrase_norm):
             common_cont = phrase_tokens & user_tokens
-            idf_cont = _idf_overlap(common_cont, phrase_tokens, user_tokens, w_phrase=w_phrase, w_user=w_user) if common_cont else 0.0
-            if idf_cont >= 0.3:
-                containment_score = 88 if len(phrase_tokens) > 1 else 74
-                update_best(best, containment_score, entry, ('sentence', original))
+            if common_cont and (common_cont - STOP_WORDS):
+                idf_cont = _idf_overlap(common_cont, phrase_tokens, user_tokens, w_phrase=w_phrase, w_user=w_user)
+                if idf_cont >= 0.3:
+                    containment_score = 88 if len(phrase_tokens) > 1 else 74
+                    update_best(best, containment_score, entry, ('sentence', original))
 
         common = phrase_tokens & user_tokens
         if phrase_tokens and common:
