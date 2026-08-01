@@ -932,6 +932,7 @@ def _idf_overlap(common: set[str], phrase_tokens: set[str], user_tokens: set[str
 
 
 def score_entry(entry: dict, user_norm: str, user_tokens: set[str], w_user: float, w_meaningful_user: float) -> dict:
+    # Guard against spurious matches by requiring at least one content/meaningful token to overlap
     best = {'score': 0, 'file_name': entry['file_name'], 'matched': []}
 
     for original, phrase_norm, phrase_tokens in entry['_key_sentences']:
