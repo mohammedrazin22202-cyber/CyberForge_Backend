@@ -51,6 +51,9 @@ STOP_WORDS = {
     'help', 'know', 'see', 'get', 'find', 'look', 'need', 'want', 'like',
     # 'me' used as a keyword on some entries causes spurious matches
     'me',
+    # Auxiliary/modal verbs to prevent false match overrides
+    'should', 'would', 'will', 'shall', 'must', 'may', 'might', 'did', 'has', 'had', 'having',
+    'was', 'were', 'am', 'been', 'being',
 }
 
 TOKEN_SYNONYMS = {
