@@ -54,6 +54,9 @@ STOP_WORDS = {
     # Auxiliary/modal verbs to prevent false match overrides
     'should', 'would', 'will', 'shall', 'must', 'may', 'might', 'did', 'has', 'had', 'having',
     'was', 'were', 'am', 'been', 'being',
+    # Common pronouns and relative determiners
+    'that', 'these', 'those', 'their', 'them', 'they',
+    'he', 'she', 'him', 'her', 'his', 'its', 'us', 'we',
 }
 
 TOKEN_SYNONYMS = {
